@@ -1091,7 +1091,7 @@ public class FireScoutGui extends javax.swing.JFrame {
                     //voltage, current, mah, 
                 }
             }
-            else if(str.contains("PilotController: Status ")) {
+            else if(str.contains("PilotController: Status")) {
                 String dataArray[] = str.substring(24).split(",");
                 jTextFieldCurrAlt.setText(dataArray[0]);
                 jTextFieldCurrDistFront.setText(dataArray[1]);
@@ -1111,7 +1111,7 @@ public class FireScoutGui extends javax.swing.JFrame {
                     String inputLine = mySerialComm.input.readLine();
                     jTextAreaLog.append(date.toString() + "\t\t" + inputLine + "\n");
 
-                    if (inputLine.length() > 7 && inputLine.substring(0, 7).equals("PilotIn")) {
+                    if (inputLine.length() > 7) {
                         parseInformation(inputLine);
                     }
 
