@@ -115,7 +115,7 @@ public class FireScoutGui extends javax.swing.JFrame {
         jPanelLog = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextAreaLog = new javax.swing.JTextArea();
-        jPanel2 = new javax.swing.JPanel();
+        jPanelPIDSet = new javax.swing.JPanel();
         jPanelPID = new javax.swing.JPanel();
         jButtonSendTPID = new javax.swing.JButton();
         jTextFieldTPID = new javax.swing.JTextField();
@@ -150,6 +150,7 @@ public class FireScoutGui extends javax.swing.JFrame {
         jButtonSetDistLeft = new javax.swing.JButton();
         jButtonSetDistRight = new javax.swing.JButton();
         jButtonSetAngle = new javax.swing.JButton();
+        jPanelHelp = new javax.swing.JPanel();
         jPanelAbout = new javax.swing.JPanel();
         jLabelProjectReqs = new javax.swing.JLabel();
         jScrollPanel = new javax.swing.JScrollPane();
@@ -582,7 +583,7 @@ public class FireScoutGui extends javax.swing.JFrame {
                         .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(34, 34, 34))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelQuadStatusLayout.createSequentialGroup()
-                        .addGap(0, 97, Short.MAX_VALUE)
+                        .addGap(0, 121, Short.MAX_VALUE)
                         .addGroup(jPanelQuadStatusLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jPanelBattery, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jPanelCompass, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -624,7 +625,7 @@ public class FireScoutGui extends javax.swing.JFrame {
             jPanelLogLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanelLogLayout.createSequentialGroup()
                 .addGap(72, 72, 72)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 612, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 637, Short.MAX_VALUE)
                 .addGap(78, 78, 78))
         );
         jPanelLogLayout.setVerticalGroup(
@@ -637,7 +638,7 @@ public class FireScoutGui extends javax.swing.JFrame {
 
         jTabbedPaneMain.addTab("On-Screen Log", jPanelLog);
 
-        jPanel2.setBackground(java.awt.SystemColor.activeCaption);
+        jPanelPIDSet.setBackground(java.awt.SystemColor.activeCaption);
 
         jPanelPID.setBackground(java.awt.SystemColor.activeCaption);
 
@@ -695,30 +696,35 @@ public class FireScoutGui extends javax.swing.JFrame {
 
         jLabel10.setText("Angle");
 
-        jTextFieldCurrAlt.setText("jTextField1");
+        jTextFieldCurrAlt.setText("0.0");
+        jTextFieldCurrAlt.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jTextFieldCurrAlt.setEnabled(false);
 
-        jTextFieldCurrDistFront.setText("jTextField1");
+        jTextFieldCurrDistFront.setText("0.0");
+        jTextFieldCurrDistFront.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jTextFieldCurrDistFront.setEnabled(false);
 
-        jTextFieldCurrDistLeft.setText("jTextField1");
+        jTextFieldCurrDistLeft.setText("0.0");
+        jTextFieldCurrDistLeft.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jTextFieldCurrDistLeft.setEnabled(false);
 
-        jTextFieldCurrDistRight.setText("jTextField1");
+        jTextFieldCurrDistRight.setText("0.0");
+        jTextFieldCurrDistRight.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jTextFieldCurrDistRight.setEnabled(false);
 
-        jTextFieldCurrAngle.setText("jTextField1");
+        jTextFieldCurrAngle.setText("0.0");
+        jTextFieldCurrAngle.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jTextFieldCurrAngle.setEnabled(false);
 
-        jTextFieldSetAlt.setText("jTextField1");
+        jTextFieldSetAlt.setText("0.0");
 
-        jTextFieldSetDistFront.setText("jTextField1");
+        jTextFieldSetDistFront.setText("0.0");
 
-        jTextFieldSetDistLeft.setText("jTextField1");
+        jTextFieldSetDistLeft.setText("0.0");
 
-        jTextFieldSetDistRight.setText("jTextField1");
+        jTextFieldSetDistRight.setText("0.0");
 
-        jTextFieldSetAngle.setText("jTextField1");
+        jTextFieldSetAngle.setText("0.0");
 
         jButtonSetAlt.setText("Set Alt");
         jButtonSetAlt.addActionListener(new java.awt.event.ActionListener() {
@@ -762,56 +768,42 @@ public class FireScoutGui extends javax.swing.JFrame {
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel3Layout.createSequentialGroup()
-                                .addComponent(jLabel8)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jTextFieldCurrDistLeft, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel3Layout.createSequentialGroup()
-                                .addComponent(jLabel2)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jTextFieldCurrAlt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel3Layout.createSequentialGroup()
-                                .addComponent(jLabel7)
-                                .addGap(18, 18, 18)
-                                .addComponent(jTextFieldCurrDistFront, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(18, 18, 18)
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addComponent(jTextFieldSetAlt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jButtonSetAlt, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                            .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addComponent(jTextFieldSetDistFront, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jButtonSetDistFront))
-                            .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addComponent(jTextFieldSetDistLeft, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jButtonSetDistLeft, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGap(1, 1, 1))))
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel3Layout.createSequentialGroup()
-                                .addComponent(jLabel10)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jTextFieldCurrAngle, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel3Layout.createSequentialGroup()
-                                .addComponent(jLabel9)
-                                .addGap(18, 18, 18)
-                                .addComponent(jTextFieldCurrDistRight, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(18, 18, 18)
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addComponent(jTextFieldSetDistRight, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jButtonSetDistRight, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                            .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addComponent(jTextFieldSetAngle, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jButtonSetAngle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jLabel8)
+                    .addComponent(jLabel2)
+                    .addComponent(jLabel7)
+                    .addComponent(jLabel10)
+                    .addComponent(jLabel9))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jTextFieldCurrAlt, javax.swing.GroupLayout.DEFAULT_SIZE, 60, Short.MAX_VALUE)
+                    .addComponent(jTextFieldCurrDistFront)
+                    .addComponent(jTextFieldCurrDistLeft)
+                    .addComponent(jTextFieldCurrDistRight)
+                    .addComponent(jTextFieldCurrAngle))
+                .addGap(45, 45, 45)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jTextFieldSetDistRight, javax.swing.GroupLayout.DEFAULT_SIZE, 55, Short.MAX_VALUE)
+                    .addComponent(jTextFieldSetDistLeft)
+                    .addComponent(jTextFieldSetDistFront)
+                    .addComponent(jTextFieldSetAlt)
+                    .addComponent(jTextFieldSetAngle))
+                .addGap(50, 50, 50)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(jPanel3Layout.createSequentialGroup()
+                            .addGap(1, 1, 1)
+                            .addComponent(jButtonSetAlt, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGroup(jPanel3Layout.createSequentialGroup()
+                            .addGap(1, 1, 1)
+                            .addComponent(jButtonSetDistFront))
+                        .addGroup(jPanel3Layout.createSequentialGroup()
+                            .addGap(1, 1, 1)
+                            .addComponent(jButtonSetDistLeft, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(1, 1, 1)))
+                    .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jButtonSetDistRight, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jButtonSetAngle, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap())
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -846,7 +838,7 @@ public class FireScoutGui extends javax.swing.JFrame {
                     .addComponent(jTextFieldCurrAngle, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jTextFieldSetAngle, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButtonSetAngle))
-                .addContainerGap(86, Short.MAX_VALUE))
+                .addContainerGap(22, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanelPIDLayout = new javax.swing.GroupLayout(jPanelPID);
@@ -913,24 +905,37 @@ public class FireScoutGui extends javax.swing.JFrame {
                 .addContainerGap(29, Short.MAX_VALUE))
         );
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
+        javax.swing.GroupLayout jPanelPIDSetLayout = new javax.swing.GroupLayout(jPanelPIDSet);
+        jPanelPIDSet.setLayout(jPanelPIDSetLayout);
+        jPanelPIDSetLayout.setHorizontalGroup(
+            jPanelPIDSetLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanelPIDSetLayout.createSequentialGroup()
+                .addGap(0, 21, Short.MAX_VALUE)
                 .addComponent(jPanelPID, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addGap(0, 21, Short.MAX_VALUE))
         );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
+        jPanelPIDSetLayout.setVerticalGroup(
+            jPanelPIDSetLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanelPIDSetLayout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(jPanelPID, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        jTabbedPaneMain.addTab("Send PID", jPanel2);
+        jTabbedPaneMain.addTab("Send PID", jPanelPIDSet);
+
+        javax.swing.GroupLayout jPanelHelpLayout = new javax.swing.GroupLayout(jPanelHelp);
+        jPanelHelp.setLayout(jPanelHelpLayout);
+        jPanelHelpLayout.setHorizontalGroup(
+            jPanelHelpLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 787, Short.MAX_VALUE)
+        );
+        jPanelHelpLayout.setVerticalGroup(
+            jPanelHelpLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 491, Short.MAX_VALUE)
+        );
+
+        jTabbedPaneMain.addTab("Help", jPanelHelp);
 
         jPanelAbout.setBackground(java.awt.SystemColor.activeCaption);
 
@@ -1224,7 +1229,7 @@ public class FireScoutGui extends javax.swing.JFrame {
 
     private void jButtonSetAltActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSetAltActionPerformed
         try {
-            mySerialComm.output.write(("DAL " + jTextFieldSetAlt.getText()).getBytes());
+            mySerialComm.output.write(("DAL " + jTextFieldSetAlt.getText() + "\n").getBytes());
         } catch (Exception e) {
             System.err.println(e.toString());
         }
@@ -1232,7 +1237,7 @@ public class FireScoutGui extends javax.swing.JFrame {
 
     private void jButtonSetDistFrontActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSetDistFrontActionPerformed
         try {
-            mySerialComm.output.write(("DDF " + jTextFieldSetDistFront.getText()).getBytes());
+            mySerialComm.output.write(("DDF " + jTextFieldSetDistFront.getText() + "\n").getBytes());
         } catch (Exception e) {
             System.err.println(e.toString());
         }
@@ -1240,7 +1245,7 @@ public class FireScoutGui extends javax.swing.JFrame {
 
     private void jButtonSetDistLeftActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSetDistLeftActionPerformed
         try {
-            mySerialComm.output.write(("DDL " + jTextFieldSetDistLeft.getText()).getBytes());
+            mySerialComm.output.write(("DDL " + jTextFieldSetDistLeft.getText() + "\n").getBytes());
         } catch (Exception e) {
             System.err.println(e.toString());
         }
@@ -1248,7 +1253,7 @@ public class FireScoutGui extends javax.swing.JFrame {
 
     private void jButtonSetDistRightActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSetDistRightActionPerformed
         try {
-            mySerialComm.output.write(("DDR " + jTextFieldSetDistRight.getText()).getBytes());
+            mySerialComm.output.write(("DDR " + jTextFieldSetDistRight.getText() + "\n").getBytes());
         } catch (Exception e) {
             System.err.println(e.toString());
         }
@@ -1256,7 +1261,7 @@ public class FireScoutGui extends javax.swing.JFrame {
 
     private void jButtonSetAngleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSetAngleActionPerformed
         try {
-            mySerialComm.output.write(("DAN " + jTextFieldSetAngle.getText()).getBytes());
+            mySerialComm.output.write(("DAN " + jTextFieldSetAngle.getText() + "\n").getBytes());
         } catch (Exception e) {
             System.err.println(e.toString());
         }
@@ -1343,7 +1348,6 @@ public class FireScoutGui extends javax.swing.JFrame {
     private javax.swing.JLabel jLabelStatus;
     private javax.swing.JLabel jLabelTeam6;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanelAbout;
@@ -1353,8 +1357,10 @@ public class FireScoutGui extends javax.swing.JFrame {
     private javax.swing.JPanel jPanelCmdCtrBase;
     private javax.swing.JPanel jPanelCompass;
     private javax.swing.JPanel jPanelGyro;
+    private javax.swing.JPanel jPanelHelp;
     private javax.swing.JPanel jPanelLog;
     private javax.swing.JPanel jPanelPID;
+    private javax.swing.JPanel jPanelPIDSet;
     private javax.swing.JPanel jPanelQuadStatus;
     private javax.swing.JProgressBar jProgressBarBattery;
     private javax.swing.JScrollPane jScrollPane1;
