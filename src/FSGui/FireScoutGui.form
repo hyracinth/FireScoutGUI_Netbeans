@@ -816,7 +816,7 @@
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace max="32767" attributes="0"/>
+                              <EmptySpace pref="24" max="32767" attributes="0"/>
                               <Component id="jLabelSensorManager" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                           </Group>
@@ -826,6 +826,7 @@
                                   <Component id="jCheckBoxLaser" max="32767" attributes="0"/>
                                   <Component id="jCheckBoxHeight" max="32767" attributes="0"/>
                                   <Component id="jCheckBoxDirectional" pref="130" max="32767" attributes="0"/>
+                                  <Component id="jCheckBoxCamera" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace max="32767" attributes="0"/>
                           </Group>
@@ -841,7 +842,9 @@
                               <Component id="jCheckBoxHeight" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="jCheckBoxDirectional" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jCheckBoxCamera" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="12" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -868,6 +871,11 @@
                     <Component class="javax.swing.JCheckBox" name="jCheckBoxDirectional">
                       <Properties>
                         <Property name="text" type="java.lang.String" value="Directional"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="jCheckBoxCamera">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="IRCamera"/>
                       </Properties>
                     </Component>
                   </SubComponents>

@@ -47,7 +47,7 @@ public class FireScoutGui extends javax.swing.JFrame {
         DefaultCaret caret = (DefaultCaret) jTextAreaLog.getCaret();
         caret.setUpdatePolicy(ALWAYS_UPDATE);
 
-        String s = (String) JOptionPane.showInputDialog(null, "Enter COM port:\n", "Welcome to FireScout Control Center", JOptionPane.PLAIN_MESSAGE, null, null, "COM17");
+        String s = (String) JOptionPane.showInputDialog(null, "Enter COM port:\n", "Welcome to FireScout Control Center", JOptionPane.PLAIN_MESSAGE, null, null, "COM7");
 
         if ((s == null) && (s.length() <= 0)) {
             System.exit(0);
@@ -146,6 +146,7 @@ public class FireScoutGui extends javax.swing.JFrame {
         jCheckBoxLaser = new javax.swing.JCheckBox();
         jCheckBoxHeight = new javax.swing.JCheckBox();
         jCheckBoxDirectional = new javax.swing.JCheckBox();
+        jCheckBoxCamera = new javax.swing.JCheckBox();
         jPanelLog = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextAreaLog = new javax.swing.JTextArea();
@@ -610,12 +611,14 @@ public class FireScoutGui extends javax.swing.JFrame {
 
         jCheckBoxDirectional.setText("Directional");
 
+        jCheckBoxCamera.setText("IRCamera");
+
         javax.swing.GroupLayout jPanelSensorManagementLayout = new javax.swing.GroupLayout(jPanelSensorManagement);
         jPanelSensorManagement.setLayout(jPanelSensorManagementLayout);
         jPanelSensorManagementLayout.setHorizontalGroup(
             jPanelSensorManagementLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelSensorManagementLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap(24, Short.MAX_VALUE)
                 .addComponent(jLabelSensorManager)
                 .addGap(31, 31, 31))
             .addGroup(jPanelSensorManagementLayout.createSequentialGroup()
@@ -623,7 +626,8 @@ public class FireScoutGui extends javax.swing.JFrame {
                 .addGroup(jPanelSensorManagementLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jCheckBoxLaser, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jCheckBoxHeight, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jCheckBoxDirectional, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE))
+                    .addComponent(jCheckBoxDirectional, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)
+                    .addComponent(jCheckBoxCamera, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanelSensorManagementLayout.setVerticalGroup(
@@ -636,7 +640,9 @@ public class FireScoutGui extends javax.swing.JFrame {
                 .addComponent(jCheckBoxHeight)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jCheckBoxDirectional)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jCheckBoxCamera)
+                .addContainerGap(12, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanelQuadStatusLayout = new javax.swing.GroupLayout(jPanelQuadStatus);
@@ -1250,7 +1256,10 @@ public class FireScoutGui extends javax.swing.JFrame {
 
         //If none checked, print all
         //else print only the checked data
-        if (!jCheckBoxLaser.isSelected() && !jCheckBoxHeight.isSelected() && !jCheckBoxDirectional.isSelected()) {
+        if(jCheckBoxCamera.isSelected() && str.contains("IRCamera:")) {
+            jTextAreaLog.append(currTime + "\t\t" + str + "\n");
+        }
+        else if (!jCheckBoxLaser.isSelected() && !jCheckBoxHeight.isSelected() && !jCheckBoxDirectional.isSelected()) {
             jTextAreaLog.append(currTime + "\t\t" + str + "\n");
         } else if (str.contains("FireScout: Sensor")){
             String temp = "";
@@ -1451,6 +1460,7 @@ public class FireScoutGui extends javax.swing.JFrame {
     private javax.swing.JButton jButtonStop;
     private javax.swing.JButton jButtonTakeoffLand;
     private javax.swing.JButton jButtonTest1;
+    private javax.swing.JCheckBox jCheckBoxCamera;
     private javax.swing.JCheckBox jCheckBoxDirectional;
     private javax.swing.JCheckBox jCheckBoxHeight;
     private javax.swing.JCheckBox jCheckBoxLaser;
