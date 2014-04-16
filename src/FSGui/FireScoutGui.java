@@ -54,7 +54,7 @@ public class FireScoutGui extends javax.swing.JFrame {
         }
 
         MY_PORT = s;
-        /*
+        
         mySerialComm = new TwoWaySerialComm(MY_PORT);
         mySerialComm.initialize();
 
@@ -66,7 +66,7 @@ public class FireScoutGui extends javax.swing.JFrame {
         } catch (TooManyListenersException e) {
             e.printStackTrace();
         }
-        */
+        
     }
 
     private  class PingSensor implements Runnable {
