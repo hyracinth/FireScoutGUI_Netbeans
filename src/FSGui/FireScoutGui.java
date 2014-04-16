@@ -1118,11 +1118,9 @@ public class FireScoutGui extends javax.swing.JFrame {
                     Date date = new Date();
                     String inputLine = mySerialComm.input.readLine();
                     pingData();
-                    if (inputLine.contains("PilotController: Sensor")) {
+                    
+                    if (inputLine.length() > 7) {
                         onScreenLog(inputLine);
-                    }
-                    else if (inputLine.length() > 7) {
-                        
                         parseInformation(inputLine);
                     }
 
@@ -1216,9 +1214,9 @@ public class FireScoutGui extends javax.swing.JFrame {
         //else print only the checked data
         if (!jCheckBoxLaser.isSelected() && !jCheckBoxHeight.isSelected() && !jCheckBoxDirectional.isSelected()) {
             jTextAreaLog.append(date.toString() + "\t\t" + str + "\n");
-        } else if (str.contains("PilotController: Sensor")){
+        } else if (str.contains("FireScout: Sensor")){
             String temp = "";
-            String sensorData[] = str.substring(24).split(",");
+            String sensorData[] = str.substring(18).split(",");
             //0 = laser, 1 = analog sonar, 2-9 = gpio sonar. If this value is -1, then there was an error with the sensor
             if (jCheckBoxLaser.isSelected()) {
                 temp += "[Sensor][Laser]: " + sensorData[0] + " m\n";

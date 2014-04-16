@@ -1,726 +1,1422 @@
-Tue Apr 15 15:50:22 EDT 2014	XBeeInterface: Connection started, FOR THE FIRST TIME IN FOREVER
-Tue Apr 15 15:50:22 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:50:22 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:22 EDT 2014	
-Tue Apr 15 15:50:23 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:23 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:23 EDT 2014	
-Tue Apr 15 15:50:23 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:23 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:23 EDT 2014	
-Tue Apr 15 15:50:23 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:23 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:23 EDT 2014	
-Tue Apr 15 15:50:23 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:24 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:24 EDT 2014	
-Tue Apr 15 15:50:24 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:24 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:24 EDT 2014	
-Tue Apr 15 15:50:24 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:24 EDT 2014	PilotIn: bv0.000000,bc0.000000,bm0.000000,
-Tue Apr 15 15:50:24 EDT 2014	PilotIn: gx0.001952,gy-0.000267,gz-0.000266,
-Tue Apr 15 15:50:24 EDT 2014	PilotIn: ax-0.076944,ay-0.021339,az-9.807693,
-Tue Apr 15 15:50:24 EDT 2014	PilotIn: cx131.1994,cy-389.0371,cz-561.1906,
-Tue Apr 15 15:50:24 EDT 2014	PilotIn: mo1,ar0,
-Tue Apr 15 15:50:25 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:25 EDT 2014	
-Tue Apr 15 15:50:25 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:25 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:25 EDT 2014	
-Tue Apr 15 15:50:25 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:25 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:25 EDT 2014	
-Tue Apr 15 15:50:25 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:25 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:25 EDT 2014	
-Tue Apr 15 15:50:25 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:26 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:50:26 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:26 EDT 2014	
-Tue Apr 15 15:50:26 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:26 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:26 EDT 2014	
-Tue Apr 15 15:50:27 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:27 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:27 EDT 2014	
-Tue Apr 15 15:50:27 EDT 2014	PilotIn: bv0.000000,bc0.000000,bm0.000000,
-Tue Apr 15 15:50:27 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:27 EDT 2014	
-Tue Apr 15 15:50:27 EDT 2014	PilotIn: gx0.002484,gy-0.000622,gz-0.000266,
-Tue Apr 15 15:50:27 EDT 2014	PilotIn: ax-0.096769,ay-0.023733,az-9.804548,
-Tue Apr 15 15:50:27 EDT 2014	PilotIn: cx131.7166,cy-389.1606,cz-560.9458,
-Tue Apr 15 15:50:27 EDT 2014	PilotIn: mo1,ar0,
-Tue Apr 15 15:50:27 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:27 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:27 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:28 EDT 2014	
-Tue Apr 15 15:50:28 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:28 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:28 EDT 2014	
-Tue Apr 15 15:50:28 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:28 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:28 EDT 2014	
-Tue Apr 15 15:50:28 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:28 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:28 EDT 2014	
-Tue Apr 15 15:50:28 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:29 EDT 2014	PilotIn: bv0.000000,bc0.000000,bm0.000000,
-Tue Apr 15 15:50:29 EDT 2014	PilotIn: gx0.001420,gy0.000441,gz0.000266,
-Tue Apr 15 15:50:29 EDT 2014	PilotIn: ax-0.081306,ay-0.036903,az-9.808085,
-Tue Apr 15 15:50:29 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:29 EDT 2014	
-Tue Apr 15 15:50:29 EDT 2014	PilotIn: cx131.4580,cy-389.0371,cz-561.0682,
-Tue Apr 15 15:50:29 EDT 2014	PilotIn: mo1,ar0,
-Tue Apr 15 15:50:29 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:29 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:29 EDT 2014	
-Tue Apr 15 15:50:29 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:29 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:50:29 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:29 EDT 2014	
-Tue Apr 15 15:50:29 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:29 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:30 EDT 2014	
-Tue Apr 15 15:50:30 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:30 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:30 EDT 2014	
-Tue Apr 15 15:50:30 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:30 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:30 EDT 2014	
-Tue Apr 15 15:50:30 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:30 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:31 EDT 2014	
-Tue Apr 15 15:50:31 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:31 EDT 2014	PilotIn: bv0.000000,bc0.000000,bm0.000000,
-Tue Apr 15 15:50:31 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:31 EDT 2014	
-Tue Apr 15 15:50:31 EDT 2014	PilotIn: gx0.001952,gy0.000441,gz-0.000266,
-Tue Apr 15 15:50:31 EDT 2014	PilotIn: ax-0.078530,ay-0.023733,az-9.813981,
-Tue Apr 15 15:50:31 EDT 2014	PilotIn: cx131.5873,cy-389.0371,cz-560.2114,
-Tue Apr 15 15:50:31 EDT 2014	PilotIn: mo1,ar0,
-Tue Apr 15 15:50:31 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:31 EDT 2014	
-Tue Apr 15 15:50:31 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:31 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:31 EDT 2014	
-Tue Apr 15 15:50:31 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:32 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:32 EDT 2014	
-Tue Apr 15 15:50:32 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:32 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:32 EDT 2014	
-Tue Apr 15 15:50:32 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:32 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:50:32 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:32 EDT 2014	
-Tue Apr 15 15:50:32 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:32 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:33 EDT 2014	
-Tue Apr 15 15:50:33 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:33 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:33 EDT 2014	
-Tue Apr 15 15:50:33 EDT 2014	PilotIn: bv0.000000,bc0.000000,bm0.000000,
-Tue Apr 15 15:50:33 EDT 2014	PilotIn: gx0.000356,gy-0.000090,gz0.000266,
-Tue Apr 15 15:50:33 EDT 2014	PilotIn: ax-0.086064,ay-0.027325,az-9.813980,
-Tue Apr 15 15:50:33 EDT 2014	PilotIn: cx131.3287,cy-389.2842,cz-559.3545,
-Tue Apr 15 15:50:33 EDT 2014	PilotIn: mo1,ar0,
-Tue Apr 15 15:50:33 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:33 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:33 EDT 2014	
-Tue Apr 15 15:50:33 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:33 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:34 EDT 2014	
-Tue Apr 15 15:50:34 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:34 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:34 EDT 2014	
-Tue Apr 15 15:50:34 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:34 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:34 EDT 2014	
-Tue Apr 15 15:50:34 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:34 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:35 EDT 2014	
-Tue Apr 15 15:50:35 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:35 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:35 EDT 2014	
-Tue Apr 15 15:50:35 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:35 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:35 EDT 2014	
-Tue Apr 15 15:50:35 EDT 2014	PilotIn: bv0.000000,bc0.000000,bm0.000000,
-Tue Apr 15 15:50:35 EDT 2014	PilotIn: gx0.001952,gy-0.000090,gz-0.000266,
-Tue Apr 15 15:50:35 EDT 2014	PilotIn: ax-0.097959,ay-0.008169,az-9.834023,
-Tue Apr 15 15:50:35 EDT 2014	PilotIn: cx131.1994,cy-388.7900,cz-560.5786,
-Tue Apr 15 15:50:35 EDT 2014	PilotIn: mo1,ar0,
-Tue Apr 15 15:50:35 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:50:35 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:35 EDT 2014	
-Tue Apr 15 15:50:35 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:35 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:36 EDT 2014	
-Tue Apr 15 15:50:36 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:36 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:36 EDT 2014	
-Tue Apr 15 15:50:36 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:36 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:36 EDT 2014	
-Tue Apr 15 15:50:36 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:36 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:36 EDT 2014	
-Tue Apr 15 15:50:37 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:37 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:37 EDT 2014	
-Tue Apr 15 15:50:37 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:37 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:37 EDT 2014	
-Tue Apr 15 15:50:37 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:37 EDT 2014	PilotIn: bv0.000000,bc0.000000,bm0.000000,
-Tue Apr 15 15:50:37 EDT 2014	PilotIn: gx0.001598,gy0.000086,gz-0.000266,
-Tue Apr 15 15:50:37 EDT 2014	PilotIn: ax-0.095976,ay-0.024531,az-9.813194,
-Tue Apr 15 15:50:38 EDT 2014	PilotIn: cx131.0701,cy-388.5428,cz-559.2321,
-Tue Apr 15 15:50:38 EDT 2014	PilotIn: mo1,ar0,
-Tue Apr 15 15:50:38 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:38 EDT 2014	
-Tue Apr 15 15:50:38 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:38 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:38 EDT 2014	
-Tue Apr 15 15:50:38 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:38 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:38 EDT 2014	
-Tue Apr 15 15:50:38 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:38 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:50:38 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:38 EDT 2014	
-Tue Apr 15 15:50:39 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:39 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:39 EDT 2014	
-Tue Apr 15 15:50:39 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:39 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:39 EDT 2014	
-Tue Apr 15 15:50:39 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:40 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:40 EDT 2014	
-Tue Apr 15 15:50:40 EDT 2014	PilotIn: bv0.000000,bc0.000000,bm0.000000,
-Tue Apr 15 15:50:40 EDT 2014	PilotIn: gx0.001952,gy0.000441,gz0.000798,
-Tue Apr 15 15:50:40 EDT 2014	PilotIn: ax-0.064653,ay-0.029720,az-9.795116,
-Tue Apr 15 15:50:40 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:40 EDT 2014	
-Tue Apr 15 15:50:40 EDT 2014	PilotIn: cx131.4580,cy-389.0371,cz-560.7010,
-Tue Apr 15 15:50:40 EDT 2014	PilotIn: mo1,ar0,
-Tue Apr 15 15:50:40 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:40 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:40 EDT 2014	
-Tue Apr 15 15:50:40 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:40 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:40 EDT 2014	
-Tue Apr 15 15:50:40 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:40 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:40 EDT 2014	
-Tue Apr 15 15:50:40 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:41 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:41 EDT 2014	
-Tue Apr 15 15:50:41 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:41 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:41 EDT 2014	
-Tue Apr 15 15:50:41 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:41 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:50:41 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:41 EDT 2014	
-Tue Apr 15 15:50:41 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:42 EDT 2014	PilotIn: bv0.000000,bc0.000000,bm0.000000,
-Tue Apr 15 15:50:42 EDT 2014	PilotIn: gx0.001952,gy0.000441,gz-0.000266,
-Tue Apr 15 15:50:42 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:42 EDT 2014	
-Tue Apr 15 15:50:42 EDT 2014	PilotIn: ax-0.081306,ay-0.028522,az-9.795116,
-Tue Apr 15 15:50:42 EDT 2014	PilotIn: cx131.8459,cy-389.0371,cz-560.7010,
-Tue Apr 15 15:50:42 EDT 2014	PilotIn: mo1,ar0,
-Tue Apr 15 15:50:42 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:42 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:42 EDT 2014	
-Tue Apr 15 15:50:42 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:42 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:42 EDT 2014	
-Tue Apr 15 15:50:42 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:42 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:43 EDT 2014	
-Tue Apr 15 15:50:43 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:43 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:43 EDT 2014	
-Tue Apr 15 15:50:43 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:43 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:43 EDT 2014	
-Tue Apr 15 15:50:43 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:43 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:44 EDT 2014	
-Tue Apr 15 15:50:44 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:44 EDT 2014	
-Tue Apr 15 15:50:44 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:44 EDT 2014	PilotIn: bv0.000000,bc0.000000,bm0.000000,
-Tue Apr 15 15:50:44 EDT 2014	PilotIn: gx0.001243,gy0.000441,gz0.000088,
-Tue Apr 15 15:50:44 EDT 2014	PilotIn: ax-0.085667,ay-0.031715,az-9.820269,
-Tue Apr 15 15:50:44 EDT 2014	PilotIn: cx131.9752,cy-389.0371,cz-560.9458,
-Tue Apr 15 15:50:44 EDT 2014	PilotIn: mo1,ar0,
-Tue Apr 15 15:50:44 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:44 EDT 2014	
-Tue Apr 15 15:50:44 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:44 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:50:44 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:44 EDT 2014	
-Tue Apr 15 15:50:44 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:45 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:45 EDT 2014	
-Tue Apr 15 15:50:45 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:45 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:45 EDT 2014	
-Tue Apr 15 15:50:45 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:45 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:45 EDT 2014	
-Tue Apr 15 15:50:45 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:45 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:46 EDT 2014	
-Tue Apr 15 15:50:46 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:46 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:46 EDT 2014	
-Tue Apr 15 15:50:46 EDT 2014	PilotIn: bv0.000000,bc0.000000,bm0.000000,
-Tue Apr 15 15:50:46 EDT 2014	PilotIn: gx0.001952,gy-0.000622,gz-0.000266,
-Tue Apr 15 15:50:46 EDT 2014	PilotIn: ax-0.084874,ay-0.022536,az-9.784505,
-Tue Apr 15 15:50:46 EDT 2014	PilotIn: cx131.5873,cy-389.1606,cz-560.0889,
-Tue Apr 15 15:50:46 EDT 2014	PilotIn: mo1,ar0,
-Tue Apr 15 15:50:46 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:46 EDT 2014	
-Tue Apr 15 15:50:46 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:46 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:46 EDT 2014	
-Tue Apr 15 15:50:46 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:47 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:47 EDT 2014	
-Tue Apr 15 15:50:47 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:47 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:47 EDT 2014	
-Tue Apr 15 15:50:47 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:47 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:50:47 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:47 EDT 2014	
-Tue Apr 15 15:50:47 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:48 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:48 EDT 2014	
-Tue Apr 15 15:50:48 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:48 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:48 EDT 2014	
-Tue Apr 15 15:50:48 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:48 EDT 2014	PilotIn: bv0.000000,bc0.000000,bm0.000000,
-Tue Apr 15 15:50:48 EDT 2014	PilotIn: gx0.014191,gy-0.009668,gz-0.007715,
-Tue Apr 15 15:50:48 EDT 2014	PilotIn: ax0.111392,ay0.479108,az-9.618268,
-Tue Apr 15 15:50:48 EDT 2014	PilotIn: cx131.3287,cy-388.9135,cz-561.9250,
-Tue Apr 15 15:50:48 EDT 2014	PilotIn: mo1,ar0,
-Tue Apr 15 15:50:48 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:48 EDT 2014	
-Tue Apr 15 15:50:48 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:48 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:49 EDT 2014	
-Tue Apr 15 15:50:49 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:49 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:49 EDT 2014	
-Tue Apr 15 15:50:49 EDT 2014	PilotIn: yb0.000000,ye0.000000
-Tue Apr 15 15:50:49 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:49 EDT 2014	
-Tue Apr 15 15:50:49 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:49 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:50 EDT 2014	
-Tue Apr 15 15:50:50 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:50 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:50 EDT 2014	
-Tue Apr 15 15:50:50 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:50 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:50 EDT 2014	
-Tue Apr 15 15:50:50 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:50 EDT 2014	PilotIn: bv0.000000,bc0.000000,bm0.000000,
-Tue Apr 15 15:50:50 EDT 2014	PilotIn: gx-0.016493,gy0.001505,gz0.000798,
-Tue Apr 15 15:50:51 EDT 2014	PilotIn: ax0.093550,ay-0.241632,az-9.763677,
-Tue Apr 15 15:50:51 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:50:51 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:51 EDT 2014	
-Tue Apr 15 15:50:51 EDT 2014	PilotIn: cx131.8459,cy-389.6548,cz-562.4147,
-Tue Apr 15 15:50:51 EDT 2014	PilotIn: mo1,ar0,
-Tue Apr 15 15:50:51 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:51 EDT 2014	
-Tue Apr 15 15:50:51 EDT 2014	PilotIn: yb-2.000000,ye0.000000
-Tue Apr 15 15:50:51 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:51 EDT 2014	
-Tue Apr 15 15:50:51 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:51 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:51 EDT 2014	
-Tue Apr 15 15:50:51 EDT 2014	PilotIn: yb-2.000000,ye0.000000
-Tue Apr 15 15:50:52 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:52 EDT 2014	
-Tue Apr 15 15:50:52 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:52 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:52 EDT 2014	
-Tue Apr 15 15:50:52 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:52 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:52 EDT 2014	
-Tue Apr 15 15:50:52 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:53 EDT 2014	PilotIn: bv0.000000,bc0.000000,bm0.000000,
-Tue Apr 15 15:50:53 EDT 2014	PilotIn: gx-0.000707,gy0.000973,gz-0.001330,
-Tue Apr 15 15:50:53 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:53 EDT 2014	
-Tue Apr 15 15:50:53 EDT 2014	PilotIn: ax-0.000420,ay-0.109935,az-9.793938,
-Tue Apr 15 15:50:53 EDT 2014	PilotIn: cx131.1994,cy-389.6548,cz-561.8026,
-Tue Apr 15 15:50:53 EDT 2014	PilotIn: mo1,ar0,
-Tue Apr 15 15:50:53 EDT 2014	PilotIn: yb-2.000000,ye0.000000
-Tue Apr 15 15:50:53 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:53 EDT 2014	
-Tue Apr 15 15:50:53 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:53 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:53 EDT 2014	
-Tue Apr 15 15:50:53 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:53 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:50:53 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:54 EDT 2014	
-Tue Apr 15 15:50:54 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:54 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:54 EDT 2014	
-Tue Apr 15 15:50:54 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:54 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:54 EDT 2014	
-Tue Apr 15 15:50:54 EDT 2014	PilotIn: yb-1.000000,ye0.000000
-Tue Apr 15 15:50:54 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:54 EDT 2014	
-Tue Apr 15 15:50:54 EDT 2014	PilotIn: yb20188.00,ye20191.00
-Tue Apr 15 15:50:55 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:55 EDT 2014	
-Tue Apr 15 15:50:55 EDT 2014	PilotIn: bv0.000000,bc0.000000,bm0.000000,
-Tue Apr 15 15:50:55 EDT 2014	PilotIn: gx-0.000175,gy-0.000622,gz-0.000266,
-Tue Apr 15 15:50:55 EDT 2014	PilotIn: ax-0.083685,ay-0.032114,az-9.782147,
-Tue Apr 15 15:50:55 EDT 2014	PilotIn: cx130.5529,cy-390.2726,cz-563.8835,
-Tue Apr 15 15:50:55 EDT 2014	PilotIn: mo1,ar0,
-Tue Apr 15 15:50:55 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:55 EDT 2014	
-Tue Apr 15 15:50:55 EDT 2014	PilotIn: yb20247.00,ye20250.00
-Tue Apr 15 15:50:55 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:55 EDT 2014	
-Tue Apr 15 15:50:55 EDT 2014	PilotIn: yb20130.00,ye20133.00
-Tue Apr 15 15:50:55 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:55 EDT 2014	
-Tue Apr 15 15:50:55 EDT 2014	PilotIn: yb20076.00,ye20079.00
-Tue Apr 15 15:50:56 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:56 EDT 2014	
-Tue Apr 15 15:50:56 EDT 2014	PilotIn: yb20247.00,ye20250.00
-Tue Apr 15 15:50:56 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:56 EDT 2014	
-Tue Apr 15 15:50:56 EDT 2014	PilotIn: yb20017.00,ye20020.00
-Tue Apr 15 15:50:56 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:50:56 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:57 EDT 2014	
-Tue Apr 15 15:50:57 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:57 EDT 2014	
-Tue Apr 15 15:50:57 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:57 EDT 2014	
-Tue Apr 15 15:50:57 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:57 EDT 2014	
-Tue Apr 15 15:50:57 EDT 2014	PilotIn: yb20076.00,ye20079.00
-Tue Apr 15 15:50:58 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:58 EDT 2014	
-Tue Apr 15 15:50:58 EDT 2014	PilotIn: yb19905.00,ye19908.00
-Tue Apr 15 15:50:58 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:58 EDT 2014	
-Tue Apr 15 15:50:58 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:58 EDT 2014	
-Tue Apr 15 15:50:58 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:59 EDT 2014	
-Tue Apr 15 15:50:59 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:59 EDT 2014	
-Tue Apr 15 15:50:59 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:50:59 EDT 2014	
-Tue Apr 15 15:50:59 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:50:59 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:00 EDT 2014	
-Tue Apr 15 15:51:00 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:00 EDT 2014	
-Tue Apr 15 15:51:00 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:00 EDT 2014	
-Tue Apr 15 15:51:00 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:01 EDT 2014	
-Tue Apr 15 15:51:01 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:01 EDT 2014	
-Tue Apr 15 15:51:01 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:02 EDT 2014	
-Tue Apr 15 15:51:02 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:02 EDT 2014	
-Tue Apr 15 15:51:02 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:02 EDT 2014	
-Tue Apr 15 15:51:02 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:02 EDT 2014	
-Tue Apr 15 15:51:02 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:03 EDT 2014	
-Tue Apr 15 15:51:03 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:51:03 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:03 EDT 2014	
-Tue Apr 15 15:51:03 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:03 EDT 2014	
-Tue Apr 15 15:51:03 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:04 EDT 2014	
-Tue Apr 15 15:51:04 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:04 EDT 2014	
-Tue Apr 15 15:51:04 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:04 EDT 2014	
-Tue Apr 15 15:51:04 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:05 EDT 2014	
-Tue Apr 15 15:51:05 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:05 EDT 2014	
-Tue Apr 15 15:51:05 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:05 EDT 2014	
-Tue Apr 15 15:51:05 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:05 EDT 2014	
-Tue Apr 15 15:51:05 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:06 EDT 2014	
-Tue Apr 15 15:51:06 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:51:06 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:06 EDT 2014	
-Tue Apr 15 15:51:06 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:06 EDT 2014	
-Tue Apr 15 15:51:06 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:06 EDT 2014	
-Tue Apr 15 15:51:07 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:07 EDT 2014	
-Tue Apr 15 15:51:07 EDT 2014	PilotIn: bv0.0000.000.0-0.0-0.-0.0-9.7125-392-559yb-1.000000,ye0.000yb-1.000000,ye0.000yb0.000000,ye0.00yb0.000000,ye0.00yb0.000000,ye0.00yb0.000000,ye0.00bv0.000000,bc0.000.0-0.00.0-0.2-0.-9.8123-389-562yb0.000000,ye0.00yb0.000000,ye0.00yb0.000000,ye0.00yb0.000000,ye0.00yb0.000000,ye0.00yb0.000000,ye0.00yb0.000000,ye0.00bv0.000000,bc0.00-0.00.0-0.00.30.0-9.7c124-39-5611yb0.000000,ye0.00yb0.000000,ye0.00yb0.000000,ye0.00yb0.000000,ye0.00yb0.000000,ye0.00yb0.000000,ye0.00yb-5.000000,ye0.000bv0.000-0.00.30.10.480.0-9.64114-42-5421yb66.00000,ye0.0000yb13.00000,ye0.0000yb2.000000,ye0.0000yb5.000000,ye0.0000yb-6.000000,ye0.000yb0.000000,ye0.00bv0.000000,bc0.000.07-0.-0.00.20.11-9.892.0-30-5921yb-14.00000,ye0.000yb0.000000,ye0.00yb27.00000,ye0.0000yb410.0000,ye403.0000
-Tue Apr 15 15:51:08 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:08 EDT 2014	
-Tue Apr 15 15:51:08 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:08 EDT 2014	
-Tue Apr 15 15:51:08 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:08 EDT 2014	
-Tue Apr 15 15:51:08 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:08 EDT 2014	
-Tue Apr 15 15:51:08 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:08 EDT 2014	
-Tue Apr 15 15:51:08 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:09 EDT 2014	
-Tue Apr 15 15:51:09 EDT 2014	PilotIn: yb0.000000,ye0.00yb-8.000000,ye0.000yb-30.00000,ye0.000bv0.000000,bc0.000.08-0.-0.00.30.11-8.6-30-110-60.yb-10.00000,ye0.000yb-5.000000,ye0.000yb3103.000,ye3104.000
-Tue Apr 15 15:51:09 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:51:09 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:09 EDT 2014	
-Tue Apr 15 15:51:09 EDT 2014	PilotIn: yb5685.000,ye5687.000
-Tue Apr 15 15:51:09 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:09 EDT 2014	
-Tue Apr 15 15:51:09 EDT 2014	PilotIn: yb2459.000,ye2459.000
-Tue Apr 15 15:51:09 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:10 EDT 2014	
-Tue Apr 15 15:51:10 EDT 2014	PilotIn: yb931.0000,ye932.0000
-Tue Apr 15 15:51:10 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:10 EDT 2014	
-Tue Apr 15 15:51:10 EDT 2014	PilotIn: yb3455.000,ye3457.000
-Tue Apr 15 15:51:10 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:10 EDT 2014	
-Tue Apr 15 15:51:10 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:10 EDT 2014	
-Tue Apr 15 15:51:10 EDT 2014	PilotIn: bv0.000-0.00.060.30.04-0.-9.7-39.-11-5261yb4745.000,ye4747.000
-Tue Apr 15 15:51:11 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:11 EDT 2014	
-Tue Apr 15 15:51:11 EDT 2014	PilotIn: yb2753.000,ye2754.000
-Tue Apr 15 15:51:11 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:11 EDT 2014	
-Tue Apr 15 15:51:11 EDT 2014	PilotIn: yb3219.000,ye3220.000
-Tue Apr 15 15:51:11 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:11 EDT 2014	
-Tue Apr 15 15:51:11 EDT 2014	PilotIn: yb3438.000,ye3457.000
-Tue Apr 15 15:51:11 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:12 EDT 2014	
-Tue Apr 15 15:51:12 EDT 2014	PilotIn: yb3924.000,ye3923.000
-Tue Apr 15 15:51:12 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:51:12 EDT 2014	PilotIn: yb3218.000,ye3220.000
-Tue Apr 15 15:51:12 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:12 EDT 2014	
-Tue Apr 15 15:51:12 EDT 2014	PilotIn: bv0.000000,bc0.00-0.-0.00.60-0.0.07-10.55.-143-481yb3805.000,ye3807.000
-Tue Apr 15 15:51:13 EDT 2014	PilotIn: yb3752.000,ye3753.000
-Tue Apr 15 15:51:13 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:13 EDT 2014	
-Tue Apr 15 15:51:13 EDT 2014	PilotIn: yb3398.000,ye3399.000
-Tue Apr 15 15:51:13 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:13 EDT 2014	
-Tue Apr 15 15:51:13 EDT 2014	PilotIn: yb3757.000,ye3749.000
-Tue Apr 15 15:51:13 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:13 EDT 2014	
-Tue Apr 15 15:51:13 EDT 2014	PilotIn: yb3333.000,ye3341.000
-Tue Apr 15 15:51:13 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:14 EDT 2014	
-Tue Apr 15 15:51:14 EDT 2014	PilotIn: yb1646.000,ye1635.000
-Tue Apr 15 15:51:14 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:14 EDT 2014	
-Tue Apr 15 15:51:14 EDT 2014	PilotIn: yb2144.000,ye2163.000
-Tue Apr 15 15:51:14 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:14 EDT 2014	
-Tue Apr 15 15:51:14 EDT 2014	PilotIn: bv0.000000,bc0.000.20.080.20.08-0.4-9.4122-27.-461yb1319.000,ye1344.000
-Tue Apr 15 15:51:15 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:15 EDT 2014	
-Tue Apr 15 15:51:15 EDT 2014	PilotIn: yb2382.000,ye2400.000
-Tue Apr 15 15:51:15 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:15 EDT 2014	
-Tue Apr 15 15:51:15 EDT 2014	PilotIn: yb5431.000,ye5450.000
-Tue Apr 15 15:51:15 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:15 EDT 2014	
-Tue Apr 15 15:51:15 EDT 2014	PilotIn: yb2692.000,ye2696.000
-Tue Apr 15 15:51:15 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:51:15 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:16 EDT 2014	
-Tue Apr 15 15:51:16 EDT 2014	PilotIn: yb4279.000,ye4281.000
-Tue Apr 15 15:51:16 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:16 EDT 2014	
-Tue Apr 15 15:51:16 EDT 2014	PilotIn: yb3689.000,ye3690.000
-Tue Apr 15 15:51:16 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:16 EDT 2014	
-Tue Apr 15 15:51:16 EDT 2014	PilotIn: yb2865.000,ye2871.000
-Tue Apr 15 15:51:16 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:17 EDT 2014	
-Tue Apr 15 15:51:17 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:17 EDT 2014	
-Tue Apr 15 15:51:17 EDT 2014	PilotIn: bv0.00000.0-0.00.50.05-0.0-9.549.55.6-487yb4101.000,ye4102.000
-Tue Apr 15 15:51:17 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:17 EDT 2014	
-Tue Apr 15 15:51:17 EDT 2014	PilotIn: yb1756.000,ye1756.000
-Tue Apr 15 15:51:17 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:17 EDT 2014	
-Tue Apr 15 15:51:17 EDT 2014	PilotIn: yb3108.000,ye3104.000
-Tue Apr 15 15:51:17 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:17 EDT 2014	
-Tue Apr 15 15:51:17 EDT 2014	PilotIn: yb3985.000,ye3986.000
-Tue Apr 15 15:51:18 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:18 EDT 2014	
-Tue Apr 15 15:51:18 EDT 2014	PilotIn: yb4100.000,ye4102.000
-Tue Apr 15 15:51:18 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:18 EDT 2014	
-Tue Apr 15 15:51:18 EDT 2014	PilotIn: yb4057.000,ye4044.000
-Tue Apr 15 15:51:18 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:51:18 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:19 EDT 2014	
-Tue Apr 15 15:51:19 EDT 2014	PilotIn: bv0.000000,bc0.000.050.0z0.6-0.0-0.-9.8-42.15.8-481yb3762.000,ye3753.000
-Tue Apr 15 15:51:19 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:19 EDT 2014	
-Tue Apr 15 15:51:19 EDT 2014	PilotIn: yb2162.000,ye2163.000
-Tue Apr 15 15:51:19 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:19 EDT 2014	
-Tue Apr 15 15:51:19 EDT 2014	PilotIn: yb4920.000,ye4922.000
-Tue Apr 15 15:51:19 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:19 EDT 2014	
-Tue Apr 15 15:51:19 EDT 2014	PilotIn: yb3806.000,ye3807.000
-Tue Apr 15 15:51:19 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:20 EDT 2014	
-Tue Apr 15 15:51:20 EDT 2014	PilotIn: yb3218.000,ye3220.000
-Tue Apr 15 15:51:20 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:20 EDT 2014	
-Tue Apr 15 15:51:20 EDT 2014	PilotIn: yb3921.000,ye3923.000
-Tue Apr 15 15:51:20 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:20 EDT 2014	
-Tue Apr 15 15:51:20 EDT 2014	PilotIn: yb3921.000,ye3923.000
-Tue Apr 15 15:51:20 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:21 EDT 2014	
-Tue Apr 15 15:51:21 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:21 EDT 2014	
-Tue Apr 15 15:51:21 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:21 EDT 2014	
-Tue Apr 15 15:51:21 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:51:21 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:22 EDT 2014	
-Tue Apr 15 15:51:22 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:22 EDT 2014	
-Tue Apr 15 15:51:22 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:22 EDT 2014	
-Tue Apr 15 15:51:22 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:23 EDT 2014	
-Tue Apr 15 15:51:23 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:23 EDT 2014	
-Tue Apr 15 15:51:23 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:23 EDT 2014	
-Tue Apr 15 15:51:23 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:23 EDT 2014	
-Tue Apr 15 15:51:23 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:24 EDT 2014	
-Tue Apr 15 15:51:24 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:24 EDT 2014	
-Tue Apr 15 15:51:24 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:24 EDT 2014	
-Tue Apr 15 15:51:24 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:51:24 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:25 EDT 2014	
-Tue Apr 15 15:51:25 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:25 EDT 2014	
-Tue Apr 15 15:51:25 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:25 EDT 2014	
-Tue Apr 15 15:51:25 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:26 EDT 2014	
-Tue Apr 15 15:51:26 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:26 EDT 2014	
-Tue Apr 15 15:51:26 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:26 EDT 2014	
-Tue Apr 15 15:51:26 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:26 EDT 2014	
-Tue Apr 15 15:51:26 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:27 EDT 2014	
-Tue Apr 15 15:51:27 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:27 EDT 2014	
-Tue Apr 15 15:51:27 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:27 EDT 2014	
-Tue Apr 15 15:51:27 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:51:27 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:27 EDT 2014	
-Tue Apr 15 15:51:28 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:28 EDT 2014	
-Tue Apr 15 15:51:28 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:28 EDT 2014	
-Tue Apr 15 15:51:28 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:28 EDT 2014	
-Tue Apr 15 15:51:29 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:29 EDT 2014	
-Tue Apr 15 15:51:29 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:29 EDT 2014	
-Tue Apr 15 15:51:29 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:29 EDT 2014	
-Tue Apr 15 15:51:29 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:30 EDT 2014	
-Tue Apr 15 15:51:30 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:30 EDT 2014	
-Tue Apr 15 15:51:30 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:30 EDT 2014	
-Tue Apr 15 15:51:30 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:51:30 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:31 EDT 2014	
-Tue Apr 15 15:51:31 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:31 EDT 2014	
-Tue Apr 15 15:51:31 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:31 EDT 2014	
-Tue Apr 15 15:51:31 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:32 EDT 2014	
-Tue Apr 15 15:51:32 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:32 EDT 2014	
-Tue Apr 15 15:51:32 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:32 EDT 2014	
-Tue Apr 15 15:51:32 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:32 EDT 2014	
-Tue Apr 15 15:51:33 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:33 EDT 2014	
-Tue Apr 15 15:51:33 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:33 EDT 2014	
-Tue Apr 15 15:51:33 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:33 EDT 2014	
-Tue Apr 15 15:51:33 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:51:34 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:34 EDT 2014	
-Tue Apr 15 15:51:34 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:34 EDT 2014	
-Tue Apr 15 15:51:34 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:34 EDT 2014	
-Tue Apr 15 15:51:34 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:35 EDT 2014	
-Tue Apr 15 15:51:35 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:35 EDT 2014	
-Tue Apr 15 15:51:35 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:35 EDT 2014	
-Tue Apr 15 15:51:35 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:36 EDT 2014	
-Tue Apr 15 15:51:36 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:36 EDT 2014	
-Tue Apr 15 15:51:36 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:36 EDT 2014	
-Tue Apr 15 15:51:36 EDT 2014	PilotOut: ss00 
-Tue Apr 15 15:51:36 EDT 2014	
-Tue Apr 15 15:51:36 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
-Tue Apr 15 15:51:37 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:43 EDT 2014	XBeeInterface: Connection started, I'M SLEEPY 
+Tue Apr 15 23:07:44 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:07:44 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:44 EDT 2014	
+Tue Apr 15 23:07:44 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:44 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:44 EDT 2014	
+Tue Apr 15 23:07:44 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:45 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:45 EDT 2014	
+Tue Apr 15 23:07:45 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:45 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:45 EDT 2014	
+Tue Apr 15 23:07:45 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:45 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:45 EDT 2014	
+Tue Apr 15 23:07:45 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:45 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:46 EDT 2014	
+Tue Apr 15 23:07:46 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:46 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:46 EDT 2014	
+Tue Apr 15 23:07:46 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:46 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:46 EDT 2014	
+Tue Apr 15 23:07:46 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:46 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:46 EDT 2014	
+Tue Apr 15 23:07:46 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:47 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:47 EDT 2014	
+Tue Apr 15 23:07:47 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:47 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:07:47 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:47 EDT 2014	
+Tue Apr 15 23:07:47 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:47 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:47 EDT 2014	
+Tue Apr 15 23:07:47 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:48 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:48 EDT 2014	
+Tue Apr 15 23:07:48 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:48 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:48 EDT 2014	
+Tue Apr 15 23:07:48 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:48 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:48 EDT 2014	
+Tue Apr 15 23:07:48 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:48 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:49 EDT 2014	
+Tue Apr 15 23:07:49 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:49 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:49 EDT 2014	
+Tue Apr 15 23:07:49 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:49 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:49 EDT 2014	
+Tue Apr 15 23:07:49 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:49 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:50 EDT 2014	
+Tue Apr 15 23:07:50 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:50 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:50 EDT 2014	
+Tue Apr 15 23:07:50 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:50 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:07:50 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:50 EDT 2014	
+Tue Apr 15 23:07:50 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:50 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:50 EDT 2014	
+Tue Apr 15 23:07:50 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:51 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:51 EDT 2014	
+Tue Apr 15 23:07:51 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:51 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:51 EDT 2014	
+Tue Apr 15 23:07:51 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:51 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:51 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:51 EDT 2014	
+Tue Apr 15 23:07:51 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:51 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:52 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:52 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:52 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:52 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:52 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:52 EDT 2014	
+Tue Apr 15 23:07:52 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:52 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:52 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:52 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:52 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:52 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:52 EDT 2014	
+Tue Apr 15 23:07:52 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:52 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:52 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:52 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:52 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:52 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:53 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:53 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:53 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:53 EDT 2014	
+Tue Apr 15 23:07:53 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:53 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:53 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:53 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:53 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:53 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:53 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:53 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:53 EDT 2014	
+Tue Apr 15 23:07:53 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:53 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:53 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:53 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:54 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:54 EDT 2014	
+Tue Apr 15 23:07:54 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:54 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:54 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:54 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:54 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:54 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:54 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:54 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:07:54 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:54 EDT 2014	
+Tue Apr 15 23:07:54 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:54 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:54 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:54 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:54 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:54 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:54 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:54 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:54 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:54 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:55 EDT 2014	 Error parsing from XBee. DataPing
+Tue Apr 15 23:07:55 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:55 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:55 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:55 EDT 2014	
+Tue Apr 15 23:07:55 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:55 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:55 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:55 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:55 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:55 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:55 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:55 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:55 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:55 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:55 EDT 2014	
+Tue Apr 15 23:07:55 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:55 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:55 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:55 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:55 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:55 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:56 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:56 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:56 EDT 2014	
+Tue Apr 15 23:07:56 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:56 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:56 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:56 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:07:56 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:56 EDT 2014	
+Tue Apr 15 23:07:56 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:56 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:56 EDT 2014	
+Tue Apr 15 23:07:56 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:56 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:56 EDT 2014	
+Tue Apr 15 23:07:56 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:56 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:56 EDT 2014	
+Tue Apr 15 23:07:56 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:56 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:56 EDT 2014	
+Tue Apr 15 23:07:56 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:57 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:07:57 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:57 EDT 2014	
+Tue Apr 15 23:07:57 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:57 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:57 EDT 2014	
+Tue Apr 15 23:07:57 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:57 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:57 EDT 2014	
+Tue Apr 15 23:07:57 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:57 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:57 EDT 2014	
+Tue Apr 15 23:07:58 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:58 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:58 EDT 2014	
+Tue Apr 15 23:07:58 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:58 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:58 EDT 2014	
+Tue Apr 15 23:07:58 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:58 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:58 EDT 2014	
+Tue Apr 15 23:07:58 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:59 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:59 EDT 2014	
+Tue Apr 15 23:07:59 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:59 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:59 EDT 2014	
+Tue Apr 15 23:07:59 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:07:59 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:07:59 EDT 2014	
+Tue Apr 15 23:07:59 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:00 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:08:00 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:00 EDT 2014	
+Tue Apr 15 23:08:00 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:00 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:00 EDT 2014	
+Tue Apr 15 23:08:00 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:00 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:00 EDT 2014	
+Tue Apr 15 23:08:00 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:00 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:01 EDT 2014	
+Tue Apr 15 23:08:01 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:01 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:01 EDT 2014	
+Tue Apr 15 23:08:01 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:01 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:01 EDT 2014	
+Tue Apr 15 23:08:01 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:01 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:01 EDT 2014	
+Tue Apr 15 23:08:01 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:02 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:02 EDT 2014	
+Tue Apr 15 23:08:02 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:02 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:02 EDT 2014	
+Tue Apr 15 23:08:02 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:02 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:02 EDT 2014	
+Tue Apr 15 23:08:02 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:03 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:08:03 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:03 EDT 2014	
+Tue Apr 15 23:08:03 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:03 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:03 EDT 2014	
+Tue Apr 15 23:08:03 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:03 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:03 EDT 2014	
+Tue Apr 15 23:08:03 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:03 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:04 EDT 2014	
+Tue Apr 15 23:08:04 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:04 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:04 EDT 2014	
+Tue Apr 15 23:08:04 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:04 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:04 EDT 2014	
+Tue Apr 15 23:08:04 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:04 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:04 EDT 2014	
+Tue Apr 15 23:08:04 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:05 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:05 EDT 2014	
+Tue Apr 15 23:08:05 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:05 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:05 EDT 2014	
+Tue Apr 15 23:08:05 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:05 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:05 EDT 2014	
+Tue Apr 15 23:08:05 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:06 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:08:06 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:06 EDT 2014	
+Tue Apr 15 23:08:06 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:06 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:06 EDT 2014	
+Tue Apr 15 23:08:06 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:06 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:06 EDT 2014	
+Tue Apr 15 23:08:06 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:06 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:07 EDT 2014	
+Tue Apr 15 23:08:07 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:07 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:07 EDT 2014	
+Tue Apr 15 23:08:07 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:07 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:07 EDT 2014	
+Tue Apr 15 23:08:07 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:07 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:07 EDT 2014	
+Tue Apr 15 23:08:07 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:08 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:08 EDT 2014	
+Tue Apr 15 23:08:08 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:08 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:08 EDT 2014	
+Tue Apr 15 23:08:08 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:08 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:08 EDT 2014	
+Tue Apr 15 23:08:08 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:09 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:08:09 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:09 EDT 2014	
+Tue Apr 15 23:08:09 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:09 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:09 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:09 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:09 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:09 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:09 EDT 2014	
+Tue Apr 15 23:08:09 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:09 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:09 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:09 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:09 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:10 EDT 2014	
+Tue Apr 15 23:08:10 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:10 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:10 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:10 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:10 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:10 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:10 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:10 EDT 2014	
+Tue Apr 15 23:08:10 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:10 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:10 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:10 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:10 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:10 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:10 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:10 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:10 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:10 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:10 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:10 EDT 2014	
+Tue Apr 15 23:08:10 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:10 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:10 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:10 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:10 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:10 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:11 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:11 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:11 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:11 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:11 EDT 2014	
+Tue Apr 15 23:08:11 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:11 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:11 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:11 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:11 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:11 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:11 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:11 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:11 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:11 EDT 2014	
+Tue Apr 15 23:08:11 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:11 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:11 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:11 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:11 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:11 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:11 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:11 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:11 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:11 EDT 2014	
+Tue Apr 15 23:08:11 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:11 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:11 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:12 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:12 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:12 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:12 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:12 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:12 EDT 2014	FireScout: Error parsing from XBee. DataPing
+Tue Apr 15 23:08:12 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:12 EDT 2014	
+Tue Apr 15 23:08:12 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:12 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:12 EDT 2014	
+Tue Apr 15 23:08:12 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:12 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:08:12 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:12 EDT 2014	
+Tue Apr 15 23:08:12 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:12 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:12 EDT 2014	
+Tue Apr 15 23:08:12 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:12 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:12 EDT 2014	
+Tue Apr 15 23:08:12 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:13 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:13 EDT 2014	
+Tue Apr 15 23:08:13 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:13 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:13 EDT 2014	
+Tue Apr 15 23:08:13 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:13 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:13 EDT 2014	
+Tue Apr 15 23:08:13 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:13 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:13 EDT 2014	
+Tue Apr 15 23:08:13 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:14 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:14 EDT 2014	
+Tue Apr 15 23:08:14 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:14 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:14 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:14 EDT 2014	
+Tue Apr 15 23:08:14 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:14 EDT 2014	
+Tue Apr 15 23:08:14 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:15 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:08:15 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:15 EDT 2014	
+Tue Apr 15 23:08:15 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:15 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:15 EDT 2014	
+Tue Apr 15 23:08:15 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:15 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:15 EDT 2014	
+Tue Apr 15 23:08:15 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:16 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:16 EDT 2014	
+Tue Apr 15 23:08:16 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:16 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:16 EDT 2014	
+Tue Apr 15 23:08:16 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:16 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:16 EDT 2014	
+Tue Apr 15 23:08:16 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:16 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:17 EDT 2014	
+Tue Apr 15 23:08:17 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:17 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:17 EDT 2014	
+Tue Apr 15 23:08:17 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:17 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:17 EDT 2014	
+Tue Apr 15 23:08:17 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:17 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:17 EDT 2014	
+Tue Apr 15 23:08:17 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:18 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:08:18 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:18 EDT 2014	
+Tue Apr 15 23:08:18 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:18 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:18 EDT 2014	
+Tue Apr 15 23:08:18 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:18 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:18 EDT 2014	
+Tue Apr 15 23:08:18 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:19 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:19 EDT 2014	
+Tue Apr 15 23:08:19 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:19 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:19 EDT 2014	
+Tue Apr 15 23:08:19 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:19 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:19 EDT 2014	
+Tue Apr 15 23:08:19 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:19 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:20 EDT 2014	
+Tue Apr 15 23:08:20 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:20 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:20 EDT 2014	
+Tue Apr 15 23:08:20 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:20 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:20 EDT 2014	
+Tue Apr 15 23:08:20 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:20 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:20 EDT 2014	
+Tue Apr 15 23:08:20 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:21 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:08:21 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:21 EDT 2014	
+Tue Apr 15 23:08:21 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:21 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:21 EDT 2014	
+Tue Apr 15 23:08:21 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:21 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:21 EDT 2014	
+Tue Apr 15 23:08:21 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:22 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:22 EDT 2014	
+Tue Apr 15 23:08:22 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:22 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:22 EDT 2014	
+Tue Apr 15 23:08:22 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:22 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:22 EDT 2014	
+Tue Apr 15 23:08:22 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:22 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:23 EDT 2014	
+Tue Apr 15 23:08:23 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:23 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:23 EDT 2014	
+Tue Apr 15 23:08:23 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:23 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:23 EDT 2014	
+Tue Apr 15 23:08:23 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:23 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:23 EDT 2014	
+Tue Apr 15 23:08:23 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:24 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:08:24 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:24 EDT 2014	
+Tue Apr 15 23:08:24 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:24 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:24 EDT 2014	
+Tue Apr 15 23:08:24 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:24 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:24 EDT 2014	
+Tue Apr 15 23:08:24 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:25 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:25 EDT 2014	
+Tue Apr 15 23:08:25 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:25 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:25 EDT 2014	
+Tue Apr 15 23:08:25 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:25 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:25 EDT 2014	
+Tue Apr 15 23:08:25 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:25 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:26 EDT 2014	
+Tue Apr 15 23:08:26 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:26 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:26 EDT 2014	
+Tue Apr 15 23:08:26 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:26 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:26 EDT 2014	
+Tue Apr 15 23:08:26 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:26 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:26 EDT 2014	
+Tue Apr 15 23:08:26 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:27 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:08:27 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:27 EDT 2014	
+Tue Apr 15 23:08:27 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:27 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:27 EDT 2014	
+Tue Apr 15 23:08:27 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:27 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:27 EDT 2014	
+Tue Apr 15 23:08:27 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:28 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:28 EDT 2014	
+Tue Apr 15 23:08:28 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:28 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:28 EDT 2014	
+Tue Apr 15 23:08:28 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:28 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:28 EDT 2014	
+Tue Apr 15 23:08:28 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:29 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:29 EDT 2014	
+Tue Apr 15 23:08:29 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:29 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:29 EDT 2014	
+Tue Apr 15 23:08:29 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:29 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:29 EDT 2014	
+Tue Apr 15 23:08:29 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:29 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:29 EDT 2014	
+Tue Apr 15 23:08:29 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:30 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:08:30 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:30 EDT 2014	
+Tue Apr 15 23:08:30 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:30 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:30 EDT 2014	
+Tue Apr 15 23:08:30 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:30 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:30 EDT 2014	
+Tue Apr 15 23:08:30 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:31 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:31 EDT 2014	
+Tue Apr 15 23:08:31 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:31 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:31 EDT 2014	
+Tue Apr 15 23:08:31 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:31 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:31 EDT 2014	
+Tue Apr 15 23:08:31 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:32 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:32 EDT 2014	
+Tue Apr 15 23:08:32 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:32 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:32 EDT 2014	
+Tue Apr 15 23:08:32 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:32 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:32 EDT 2014	
+Tue Apr 15 23:08:32 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:32 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:32 EDT 2014	
+Tue Apr 15 23:08:32 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:33 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:08:33 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:33 EDT 2014	
+Tue Apr 15 23:08:33 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:33 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:33 EDT 2014	
+Tue Apr 15 23:08:33 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:33 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:33 EDT 2014	
+Tue Apr 15 23:08:33 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:34 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:34 EDT 2014	
+Tue Apr 15 23:08:34 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:08:34 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:08:34 EDT 2014	
+Tue Apr 15 23:08:34 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:04 EDT 2014	XBeeInterface: Connection started, I'M SLEEPY 
+Tue Apr 15 23:11:05 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:11:05 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:05 EDT 2014	
+Tue Apr 15 23:11:05 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:05 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:05 EDT 2014	
+Tue Apr 15 23:11:05 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:05 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:05 EDT 2014	
+Tue Apr 15 23:11:05 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:06 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:06 EDT 2014	
+Tue Apr 15 23:11:06 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:06 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:06 EDT 2014	
+Tue Apr 15 23:11:06 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:06 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:06 EDT 2014	
+Tue Apr 15 23:11:06 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:07 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:07 EDT 2014	
+Tue Apr 15 23:11:07 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:07 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:07 EDT 2014	
+Tue Apr 15 23:11:07 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:07 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:07 EDT 2014	
+Tue Apr 15 23:11:07 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:08 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:08 EDT 2014	
+Tue Apr 15 23:11:08 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:08 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:11:08 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:08 EDT 2014	
+Tue Apr 15 23:11:08 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:08 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:08 EDT 2014	
+Tue Apr 15 23:11:08 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:08 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:08 EDT 2014	
+Tue Apr 15 23:11:08 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:09 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:09 EDT 2014	
+Tue Apr 15 23:11:09 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:09 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:09 EDT 2014	
+Tue Apr 15 23:11:09 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:09 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:09 EDT 2014	
+Tue Apr 15 23:11:09 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:10 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:10 EDT 2014	
+Tue Apr 15 23:11:10 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:10 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:10 EDT 2014	
+Tue Apr 15 23:11:10 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:10 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:10 EDT 2014	
+Tue Apr 15 23:11:10 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:11 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:11 EDT 2014	
+Tue Apr 15 23:11:11 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:11 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:11:11 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:11 EDT 2014	
+Tue Apr 15 23:11:11 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:11 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:11 EDT 2014	
+Tue Apr 15 23:11:11 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:11 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:11 EDT 2014	
+Tue Apr 15 23:11:11 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:12 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:12 EDT 2014	
+Tue Apr 15 23:11:12 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:12 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:12 EDT 2014	
+Tue Apr 15 23:11:12 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:12 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:12 EDT 2014	
+Tue Apr 15 23:11:12 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:13 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:13 EDT 2014	
+Tue Apr 15 23:11:13 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:13 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:13 EDT 2014	
+Tue Apr 15 23:11:13 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:13 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:13 EDT 2014	
+Tue Apr 15 23:11:13 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:14 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:14 EDT 2014	
+Tue Apr 15 23:11:14 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:14 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:11:14 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:14 EDT 2014	
+Tue Apr 15 23:11:14 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:14 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:14 EDT 2014	
+Tue Apr 15 23:11:14 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:14 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:14 EDT 2014	
+Tue Apr 15 23:11:14 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:15 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:15 EDT 2014	
+Tue Apr 15 23:11:15 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:15 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:15 EDT 2014	
+Tue Apr 15 23:11:15 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:15 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:15 EDT 2014	
+Tue Apr 15 23:11:15 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:11:16 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:11:16 EDT 2014	
+Tue Apr 15 23:11:16 EDT 2014	PilotIn: mo0,ar0,
+Tue Apr 15 23:25:02 EDT 2014	XBeeInterface: Connection started, I'M SLEEPY 
+Tue Apr 15 23:25:03 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:25:03 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:03 EDT 2014	
+Tue Apr 15 23:25:03 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:04 EDT 2014	
+Tue Apr 15 23:25:04 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:04 EDT 2014	
+Tue Apr 15 23:25:04 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:04 EDT 2014	
+Tue Apr 15 23:25:04 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:05 EDT 2014	
+Tue Apr 15 23:25:05 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:05 EDT 2014	
+Tue Apr 15 23:25:05 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:05 EDT 2014	
+Tue Apr 15 23:25:05 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:05 EDT 2014	
+Tue Apr 15 23:25:05 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:06 EDT 2014	
+Tue Apr 15 23:25:06 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:06 EDT 2014	
+Tue Apr 15 23:25:06 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:25:06 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:06 EDT 2014	
+Tue Apr 15 23:25:06 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:07 EDT 2014	
+Tue Apr 15 23:25:07 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:07 EDT 2014	
+Tue Apr 15 23:25:07 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:07 EDT 2014	
+Tue Apr 15 23:25:07 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:08 EDT 2014	
+Tue Apr 15 23:25:08 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:08 EDT 2014	
+Tue Apr 15 23:25:08 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:08 EDT 2014	
+Tue Apr 15 23:25:08 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:08 EDT 2014	
+Tue Apr 15 23:25:09 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:09 EDT 2014	
+Tue Apr 15 23:25:09 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:09 EDT 2014	
+Tue Apr 15 23:25:09 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:25:10 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:10 EDT 2014	
+Tue Apr 15 23:25:10 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:10 EDT 2014	
+Tue Apr 15 23:25:10 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:10 EDT 2014	
+Tue Apr 15 23:25:10 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:10 EDT 2014	
+Tue Apr 15 23:25:11 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:11 EDT 2014	
+Tue Apr 15 23:25:11 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:11 EDT 2014	
+Tue Apr 15 23:25:11 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:11 EDT 2014	
+Tue Apr 15 23:25:12 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:12 EDT 2014	
+Tue Apr 15 23:25:12 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:12 EDT 2014	
+Tue Apr 15 23:25:12 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:12 EDT 2014	
+Tue Apr 15 23:25:12 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:25:13 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:13 EDT 2014	
+Tue Apr 15 23:25:13 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:13 EDT 2014	
+Tue Apr 15 23:25:13 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:13 EDT 2014	
+Tue Apr 15 23:25:13 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:13 EDT 2014	
+Tue Apr 15 23:25:14 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:14 EDT 2014	
+Tue Apr 15 23:25:14 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:14 EDT 2014	
+Tue Apr 15 23:25:14 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:15 EDT 2014	
+Tue Apr 15 23:25:15 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:15 EDT 2014	
+Tue Apr 15 23:25:15 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:15 EDT 2014	
+Tue Apr 15 23:25:15 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:15 EDT 2014	
+Tue Apr 15 23:25:15 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:25:16 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:16 EDT 2014	
+Tue Apr 15 23:25:16 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:16 EDT 2014	
+Tue Apr 15 23:25:16 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:16 EDT 2014	
+Tue Apr 15 23:25:16 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:17 EDT 2014	
+Tue Apr 15 23:25:17 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:17 EDT 2014	
+Tue Apr 15 23:25:17 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:17 EDT 2014	
+Tue Apr 15 23:25:17 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:18 EDT 2014	
+Tue Apr 15 23:25:18 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:18 EDT 2014	
+Tue Apr 15 23:25:18 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:18 EDT 2014	
+Tue Apr 15 23:25:18 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:18 EDT 2014	
+Tue Apr 15 23:25:19 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:25:19 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:19 EDT 2014	
+Tue Apr 15 23:25:19 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:19 EDT 2014	
+Tue Apr 15 23:25:19 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:19 EDT 2014	
+Tue Apr 15 23:25:19 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:20 EDT 2014	
+Tue Apr 15 23:25:20 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:20 EDT 2014	
+Tue Apr 15 23:25:20 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:20 EDT 2014	
+Tue Apr 15 23:25:20 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:20 EDT 2014	
+Tue Apr 15 23:25:20 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:21 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:21 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:21 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:21 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:21 EDT 2014	
+Tue Apr 15 23:25:21 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:21 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:21 EDT 2014	
+Tue Apr 15 23:25:21 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:21 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:21 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:21 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:21 EDT 2014	
+Tue Apr 15 23:25:22 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:22 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:22 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:22 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:22 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:22 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:22 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:25:22 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:22 EDT 2014	
+Tue Apr 15 23:25:22 EDT 2014	,-1.0,-1.0
+Tue Apr 15 23:25:22 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:22 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:22 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:22 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:22 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:22 EDT 2014	
+Tue Apr 15 23:25:22 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:22 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:23 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:23 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:23 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:23 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:23 EDT 2014	
+Tue Apr 15 23:25:23 EDT 2014	FireScout: Error parsing from XBee. DDataPing
+Tue Apr 15 23:25:23 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:23 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:23 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:23 EDT 2014	
+Tue Apr 15 23:25:23 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:23 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:23 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:23 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:23 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:23 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:23 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:23 EDT 2014	
+Tue Apr 15 23:25:23 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:23 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:24 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:24 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:24 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:24 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:24 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:24 EDT 2014	
+Tue Apr 15 23:25:24 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:24 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:24 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:24 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:24 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:24 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:24 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:24 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:24 EDT 2014	
+Tue Apr 15 23:25:24 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:24 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:24 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:24 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:25 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:25 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:25 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:25 EDT 2014	
+Tue Apr 15 23:25:25 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:25 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:25 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:25 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:25 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:25 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:25 EDT 2014	
+Tue Apr 15 23:25:25 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:25 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:25 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:25 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:25 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:25 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:25 EDT 2014	
+Tue Apr 15 23:25:25 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:26 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:26 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:26 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:26 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:26 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:26 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:25:26 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:26 EDT 2014	
+Tue Apr 15 23:25:26 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:26 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:26 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:26 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:26 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:26 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:26 EDT 2014	
+Tue Apr 15 23:25:26 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:26 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:26 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:27 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:27 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:27 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:27 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:27 EDT 2014	
+Tue Apr 15 23:25:27 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:27 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:27 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:27 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:27 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:27 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:27 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:27 EDT 2014	
+Tue Apr 15 23:25:27 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:27 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:27 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:27 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:27 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:28 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:28 EDT 2014	
+Tue Apr 15 23:25:28 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:28 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:28 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:28 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:28 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:28 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:28 EDT 2014	
+Tue Apr 15 23:25:28 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:28 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:28 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:28 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:28 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:28 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:28 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:28 EDT 2014	
+Tue Apr 15 23:25:28 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:28 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:28 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:29 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:29 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:29 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:29 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:29 EDT 2014	
+Tue Apr 15 23:25:29 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:29 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:29 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:29 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:29 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:29 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:29 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:29 EDT 2014	
+Tue Apr 15 23:25:29 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:29 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:29 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:29 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:29 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:29 EDT 2014	
+Tue Apr 15 23:25:30 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:30 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:30 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:30 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:30 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:30 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:30 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:25:30 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:30 EDT 2014	
+Tue Apr 15 23:25:30 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:30 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:30 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:30 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:30 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:30 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:30 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:30 EDT 2014	
+Tue Apr 15 23:25:30 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:30 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:31 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:31 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:31 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:31 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:31 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:31 EDT 2014	
+Tue Apr 15 23:25:31 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:31 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:31 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:31 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:31 EDT 2014	
+Tue Apr 15 23:25:31 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:31 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:31 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:31 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:31 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:31 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:31 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:32 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:32 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:32 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:32 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:32 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:32 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:32 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:32 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:32 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:32 EDT 2014	
+Tue Apr 15 23:25:32 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:32 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:32 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:32 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:32 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:32 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:32 EDT 2014	
+Tue Apr 15 23:25:32 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:33 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:33 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:33 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:33 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:33 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:33 EDT 2014	
+Tue Apr 15 23:25:33 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:33 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:33 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:33 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:33 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:33 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:33 EDT 2014	
+Tue Apr 15 23:25:33 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:33 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:33 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:33 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:33 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:34 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:34 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:34 EDT 2014	
+Tue Apr 15 23:25:34 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:34 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:34 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:34 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:34 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:34 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:34 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:34 EDT 2014	
+Tue Apr 15 23:25:34 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:34 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:34 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:34 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:34 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:25:34 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:34 EDT 2014	
+Tue Apr 15 23:25:34 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:34 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:35 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:35 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:35 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:35 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:35 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:35 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:35 EDT 2014	
+Tue Apr 15 23:25:35 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:35 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:35 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:35 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:35 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:35 EDT 2014	
+Tue Apr 15 23:25:35 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:35 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:35 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:35 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:35 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:36 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:36 EDT 2014	
+Tue Apr 15 23:25:36 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:36 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:36 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:36 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:36 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:36 EDT 2014	
+Tue Apr 15 23:25:36 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:36 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:36 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:36 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:36 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:36 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:36 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:36 EDT 2014	
+Tue Apr 15 23:25:36 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:36 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:36 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:36 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:37 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:37 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:37 EDT 2014	
+Tue Apr 15 23:25:37 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:37 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:37 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:37 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:37 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:37 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:37 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:37 EDT 2014	
+Tue Apr 15 23:25:37 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:37 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:37 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:37 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:37 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:37 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:37 EDT 2014	
+Tue Apr 15 23:25:37 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:38 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:38 EDT 2014	
+Tue Apr 15 23:25:38 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:25:38 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:38 EDT 2014	
+Tue Apr 15 23:25:39 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:39 EDT 2014	
+Tue Apr 15 23:25:39 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:39 EDT 2014	
+Tue Apr 15 23:25:40 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:40 EDT 2014	
+Tue Apr 15 23:25:41 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:41 EDT 2014	
+Tue Apr 15 23:25:42 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:42 EDT 2014	
+Tue Apr 15 23:25:43 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:43 EDT 2014	
+Tue Apr 15 23:25:44 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:44 EDT 2014	
+Tue Apr 15 23:25:45 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:45 EDT 2014	
+Tue Apr 15 23:25:46 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:46 EDT 2014	
+Tue Apr 15 23:25:47 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:25:47 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:47 EDT 2014	
+Tue Apr 15 23:25:48 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:48 EDT 2014	
+Tue Apr 15 23:25:49 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:49 EDT 2014	
+Tue Apr 15 23:25:50 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:50 EDT 2014	
+Tue Apr 15 23:25:51 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:51 EDT 2014	
+Tue Apr 15 23:25:52 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:52 EDT 2014	
+Tue Apr 15 23:25:53 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:53 EDT 2014	
+Tue Apr 15 23:25:54 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:54 EDT 2014	
+Tue Apr 15 23:25:55 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:55 EDT 2014	
+Tue Apr 15 23:25:56 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:56 EDT 2014	
+Tue Apr 15 23:25:56 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:25:56 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:56 EDT 2014	
+Tue Apr 15 23:25:57 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:57 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:57 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:57 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:57 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:57 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:57 EDT 2014	
+Tue Apr 15 23:25:57 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:57 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:57 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:57 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:57 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:58 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:58 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:58 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:58 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:58 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:58 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:58 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:58 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:58 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:58 EDT 2014	
+Tue Apr 15 23:25:58 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:58 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:58 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:58 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:58 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:59 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:59 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:59 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:59 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:59 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:59 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:59 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:59 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:59 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:59 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:25:59 EDT 2014	
+Tue Apr 15 23:25:59 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:59 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:59 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:59 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:59 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:25:59 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:00 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:00 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:00 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:00 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:00 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:00 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:00 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:00 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:00 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:00 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:00 EDT 2014	
+Tue Apr 15 23:26:00 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:00 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:00 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:00 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:00 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:01 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:01 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:01 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:01 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:01 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:01 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:01 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:01 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:01 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:01 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:01 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:01 EDT 2014	
+Tue Apr 15 23:26:01 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:01 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:01 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:01 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:02 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:02 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:02 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:02 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:02 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:02 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:02 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:02 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:02 EDT 2014	
+Tue Apr 15 23:26:02 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:02 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:02 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:02 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:02 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:02 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:02 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:02 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:03 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:03 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:03 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:03 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:03 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:03 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:03 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:03 EDT 2014	
+Tue Apr 15 23:26:03 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:03 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:03 EDT 2014	FireScout: Sensor 0.0,0.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:04 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:04 EDT 2014	
+Tue Apr 15 23:26:05 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:05 EDT 2014	
+Tue Apr 15 23:26:06 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:26:06 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:06 EDT 2014	
+Tue Apr 15 23:26:07 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:07 EDT 2014	
+Tue Apr 15 23:26:08 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:08 EDT 2014	
+Tue Apr 15 23:26:09 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:09 EDT 2014	
+Tue Apr 15 23:26:09 EDT 2014	.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Tue Apr 15 23:26:10 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:10 EDT 2014	
+Tue Apr 15 23:26:11 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:11 EDT 2014	
+Tue Apr 15 23:26:12 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:12 EDT 2014	
+Tue Apr 15 23:26:13 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:13 EDT 2014	
+Tue Apr 15 23:26:13 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:13 EDT 2014	
+Tue Apr 15 23:26:14 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:14 EDT 2014	
+Tue Apr 15 23:26:15 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:26:15 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:15 EDT 2014	
+Tue Apr 15 23:26:16 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:16 EDT 2014	
+Tue Apr 15 23:26:17 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:17 EDT 2014	
+Tue Apr 15 23:26:19 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:19 EDT 2014	
+Tue Apr 15 23:26:19 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:19 EDT 2014	
+Tue Apr 15 23:26:20 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:20 EDT 2014	
+Tue Apr 15 23:26:21 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:21 EDT 2014	
+Tue Apr 15 23:26:22 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:26:22 EDT 2014	
+Tue Apr 15 23:27:35 EDT 2014	XBeeInterface: Connection started, I'M SLEEPY 
+Tue Apr 15 23:27:35 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:27:35 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:36 EDT 2014	
+Tue Apr 15 23:27:36 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:36 EDT 2014	
+Tue Apr 15 23:27:36 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:36 EDT 2014	
+Tue Apr 15 23:27:36 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:37 EDT 2014	
+Tue Apr 15 23:27:37 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:37 EDT 2014	
+Tue Apr 15 23:27:37 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:37 EDT 2014	
+Tue Apr 15 23:27:37 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:37 EDT 2014	
+Tue Apr 15 23:27:37 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:38 EDT 2014	
+Tue Apr 15 23:27:38 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:38 EDT 2014	
+Tue Apr 15 23:27:38 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:38 EDT 2014	
+Tue Apr 15 23:27:38 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:27:38 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:39 EDT 2014	
+Tue Apr 15 23:27:39 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:39 EDT 2014	
+Tue Apr 15 23:27:39 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:39 EDT 2014	
+Tue Apr 15 23:27:39 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:40 EDT 2014	
+Tue Apr 15 23:27:40 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:40 EDT 2014	
+Tue Apr 15 23:27:40 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:40 EDT 2014	
+Tue Apr 15 23:27:40 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:40 EDT 2014	
+Tue Apr 15 23:27:41 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:41 EDT 2014	
+Tue Apr 15 23:27:41 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:41 EDT 2014	
+Tue Apr 15 23:27:41 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:41 EDT 2014	
+Tue Apr 15 23:27:42 EDT 2014	PilotController: Status 0.0,0.0,0.0,0.0,0.0
+Tue Apr 15 23:27:42 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:42 EDT 2014	
+Tue Apr 15 23:27:42 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:42 EDT 2014	
+Tue Apr 15 23:27:43 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:43 EDT 2014	
+Tue Apr 15 23:27:43 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:43 EDT 2014	
+Tue Apr 15 23:27:44 EDT 2014	PilotOut: ss00 
+Tue Apr 15 23:27:44 EDT 2014	
