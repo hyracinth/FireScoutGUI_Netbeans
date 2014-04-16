@@ -13,7 +13,11 @@ import java.util.TooManyListenersException;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.logging.Level;
+import java.util.logging.LogRecord;
+import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 import javax.swing.text.DefaultCaret;
 import static javax.swing.text.DefaultCaret.ALWAYS_UPDATE;
@@ -28,6 +32,8 @@ public class FireScoutGui extends javax.swing.JFrame {
     private boolean laserToggle = false;
     private boolean heightToggle = false;
     private boolean directionalToggle = false;    
+    private boolean xbeeXfer = false;
+    private boolean threadStatus = false;
     
     private TwoWaySerialComm mySerialComm;
 
@@ -48,20 +54,38 @@ public class FireScoutGui extends javax.swing.JFrame {
         }
 
         MY_PORT = s;
-        
+        /*
         mySerialComm = new TwoWaySerialComm(MY_PORT);
         mySerialComm.initialize();
 
         jTextFieldComPort.setText("Connected to " + s + ".");
 
+        
         try {
             mySerialComm.serialPort.addEventListener(new GUISerialPortEventListener());
         } catch (TooManyListenersException e) {
             e.printStackTrace();
         }
-        
+        */
     }
 
+    private  class PingSensor implements Runnable {
+        public void run() {
+            while( jCheckBoxLaser.isSelected() || jCheckBoxHeight.isSelected() || jCheckBoxDirectional.isSelected() ) {
+                try {
+                    Thread.sleep(1000);
+                    mySerialComm.output.write("DataPing\n".getBytes());
+                } catch (InterruptedException ex) {
+                    Logger.getLogger(FireScoutGui.class.getName()).log(Level.SEVERE, null, ex);
+                } catch (IOException ex) {
+                    Logger.getLogger(FireScoutGui.class.getName()).log(Level.SEVERE, null, ex);
+                }
+                
+            }
+        
+        }
+    }
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -1115,9 +1139,11 @@ public class FireScoutGui extends javax.swing.JFrame {
         public synchronized void serialEvent(SerialPortEvent oEvent) {
             if (oEvent.getEventType() == SerialPortEvent.DATA_AVAILABLE) {
                 try {
-                    Date date = new Date();
+                    LogRecord record = null;
+                    
+                    Date date = new Date(record.getMillis());
                     String inputLine = mySerialComm.input.readLine();
-                    pingData();
+                    //pingData();
                     
                     if (inputLine.length() > 7) {
                         onScreenLog(inputLine);
@@ -1146,6 +1172,17 @@ public class FireScoutGui extends javax.swing.JFrame {
     
     public void parseInformation(String str) {
         jTextFieldXbeeStatus.setText("Xbee Connected.");
+        xbeeXfer = true;
+        
+        if(threadStatus == false && xbeeXfer == true) {
+            (new Thread(new PingSensor())).start();
+            threadStatus = true;
+        }
+            
+        if(!jCheckBoxLaser.isSelected() && !jCheckBoxHeight.isSelected() && !jCheckBoxDirectional.isSelected()) {
+            threadStatus = false;            
+        }
+        
         if (str.length() < 10) {
             return;
         } else {
@@ -1185,8 +1222,8 @@ public class FireScoutGui extends javax.swing.JFrame {
                     //voltage, current, mah, 
                 }
             }
-            else if(str.contains("PilotController: Status")) {
-                String dataArray[] = str.substring(24).split(",");
+            else if(str.contains("PilotController: PIDTargert")) {
+                String dataArray[] = str.substring(28).split(",");
                 jTextFieldCurrAlt.setText(dataArray[0]);
                 jTextFieldCurrDistFront.setText(dataArray[1]);
                 jTextFieldCurrDistLeft.setText(dataArray[2]);
@@ -1196,7 +1233,7 @@ public class FireScoutGui extends javax.swing.JFrame {
         }
 
     }
-
+/*
     private void pingData() {
         if(jCheckBoxLaser.isSelected() || jCheckBoxHeight.isSelected() || jCheckBoxDirectional.isSelected()) {
             try {
@@ -1206,14 +1243,16 @@ public class FireScoutGui extends javax.swing.JFrame {
             }
         }
     }
-    
+    */
     private void onScreenLog(String str) {
+        long millis = System.currentTimeMillis() % 1000;
         Date date = new Date();
+        String currTime = String.format("%2d:%2d:%2d:%4d", date.getHours(), date.getMinutes(), date.getSeconds(), millis);
 
         //If none checked, print all
         //else print only the checked data
         if (!jCheckBoxLaser.isSelected() && !jCheckBoxHeight.isSelected() && !jCheckBoxDirectional.isSelected()) {
-            jTextAreaLog.append(date.toString() + "\t\t" + str + "\n");
+            jTextAreaLog.append(currTime + "\t\t" + str + "\n");
         } else if (str.contains("FireScout: Sensor")){
             String temp = "";
             String sensorData[] = str.substring(18).split(",");
