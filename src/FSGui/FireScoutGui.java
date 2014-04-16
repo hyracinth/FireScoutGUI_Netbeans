@@ -48,7 +48,7 @@ public class FireScoutGui extends javax.swing.JFrame {
         }
 
         MY_PORT = s;
-        /*
+        
         mySerialComm = new TwoWaySerialComm(MY_PORT);
         mySerialComm.initialize();
 
@@ -59,7 +59,7 @@ public class FireScoutGui extends javax.swing.JFrame {
         } catch (TooManyListenersException e) {
             e.printStackTrace();
         }
-        */
+        
     }
 
     /**
@@ -1111,6 +1111,41 @@ public class FireScoutGui extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private class GUISerialPortEventListener implements SerialPortEventListener {
+        public synchronized void serialEvent(SerialPortEvent oEvent) {
+            if (oEvent.getEventType() == SerialPortEvent.DATA_AVAILABLE) {
+                try {
+                    Date date = new Date();
+                    String inputLine = mySerialComm.input.readLine();
+                    pingData();
+                    if (inputLine.contains("PilotController: Sensor")) {
+                        onScreenLog(inputLine);
+                    }
+                    else if (inputLine.length() > 7) {
+                        
+                        parseInformation(inputLine);
+                    }
+
+                    try {
+                        FileWriter fstream = new FileWriter("log.txt", true);
+                        BufferedWriter out = new BufferedWriter(fstream);
+                        out.write(date.toString() + "\t" + inputLine + "\n");
+                        //Close the output stream
+                        out.close();
+                    } catch (Exception e) {//Catch exception if any
+                        System.err.println("Error: " + e.getMessage());
+                    }
+                } catch (Exception e) {
+                    System.err.println(e.toString()); // TODO
+                }
+            } else { // Ignore all the other eventTypes, but you should consider
+                // the other ones.
+                System.out.println("Serial Port Event not handled received");
+            }
+
+        }
+    }
+    
     public void parseInformation(String str) {
         jTextFieldXbeeStatus.setText("Xbee Connected.");
         if (str.length() < 10) {
@@ -1164,40 +1199,6 @@ public class FireScoutGui extends javax.swing.JFrame {
 
     }
 
-    private class GUISerialPortEventListener implements SerialPortEventListener {
-        public synchronized void serialEvent(SerialPortEvent oEvent) {
-            if (oEvent.getEventType() == SerialPortEvent.DATA_AVAILABLE) {
-                try {
-                    Date date = new Date();
-                    String inputLine = mySerialComm.input.readLine();
-                    onScreenLog(inputLine);
-                    pingData();
-                    //jTextAreaLog.append(date.toString() + "\t\t" + inputLine + "\n");
-
-                    if (inputLine.length() > 7) {
-                        parseInformation(inputLine);
-                    }
-
-                    try {
-                        FileWriter fstream = new FileWriter("log.txt", true);
-                        BufferedWriter out = new BufferedWriter(fstream);
-                        out.write(date.toString() + "\t" + inputLine + "\n");
-                        //Close the output stream
-                        out.close();
-                    } catch (Exception e) {//Catch exception if any
-                        System.err.println("Error: " + e.getMessage());
-                    }
-                } catch (Exception e) {
-                    System.err.println(e.toString()); // TODO
-                }
-            } else { // Ignore all the other eventTypes, but you should consider
-                // the other ones.
-                System.out.println("Serial Port Event not handled received");
-            }
-
-        }
-    }
-
     private void pingData() {
         if(jCheckBoxLaser.isSelected() || jCheckBoxHeight.isSelected() || jCheckBoxDirectional.isSelected()) {
             try {
@@ -1213,18 +1214,29 @@ public class FireScoutGui extends javax.swing.JFrame {
 
         //If none checked, print all
         //else print only the checked data
-        if (!(jCheckBoxLaser.isSelected() && jCheckBoxHeight.isSelected() && jCheckBoxDirectional.isSelected())) {
+        if (!jCheckBoxLaser.isSelected() && !jCheckBoxHeight.isSelected() && !jCheckBoxDirectional.isSelected()) {
             jTextAreaLog.append(date.toString() + "\t\t" + str + "\n");
-        } else {
-            if (jCheckBoxLaser.isSelected() && str.contains("Laser")) {
-                jTextAreaLog.append(date.toString() + "\t\t" + str + "\n");
+        } else if (str.contains("PilotController: Sensor")){
+            String temp = "";
+            String sensorData[] = str.substring(24).split(",");
+            //0 = laser, 1 = analog sonar, 2-9 = gpio sonar. If this value is -1, then there was an error with the sensor
+            if (jCheckBoxLaser.isSelected()) {
+                temp += "[Sensor][Laser]: " + sensorData[0] + " m\n";
             }
-            if (jCheckBoxHeight.isSelected() && str.contains("Height")) {
-                jTextAreaLog.append(date.toString() + "\t\t" + str + "\n");
+            if (jCheckBoxHeight.isSelected()) {
+                temp += "[Sensor][Height]: " + sensorData[1] + " cm\n";
             }
-            if (jCheckBoxDirectional.isSelected() && str.contains("Directional")) {
-                jTextAreaLog.append(date.toString() + "\t\t" + str + "\n");
+            if (jCheckBoxDirectional.isSelected()) {
+                temp += "[Sensor][Directional][1]: " + sensorData[2] + " cm\n";
+                temp += "[Sensor][Directional][2]: " + sensorData[3] + " cm\n";
+                temp += "[Sensor][Directional][3]: " + sensorData[4] + " cm\n";
+                temp += "[Sensor][Directional][4]: " + sensorData[5] + " cm\n";
+                temp += "[Sensor][Directional][5]: " + sensorData[6] + " cm\n";
+                temp += "[Sensor][Directional][6]: " + sensorData[7] + " cm\n";
+                temp += "[Sensor][Directional][7]: " + sensorData[8] + " cm\n";
+                temp += "[Sensor][Directional][8]: " + sensorData[9] + " cm\n";
             }
+            jTextAreaLog.append(temp);
 
         }
 
@@ -1232,6 +1244,7 @@ public class FireScoutGui extends javax.swing.JFrame {
 
     private void jButtonStartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonStartActionPerformed
         //parseInformation("PilotController: Status 123,321,123,123,312");
+        //onScreenLog("PilotController: Sensor 1,2,3,4,5,6,7,8,9,10");
         try {
             mySerialComm.output.write("Start\n".getBytes());
         } catch (Exception e) {
