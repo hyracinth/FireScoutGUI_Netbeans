@@ -1139,11 +1139,10 @@ public class FireScoutGui extends javax.swing.JFrame {
         public synchronized void serialEvent(SerialPortEvent oEvent) {
             if (oEvent.getEventType() == SerialPortEvent.DATA_AVAILABLE) {
                 try {
-                    LogRecord record = null;
                     
-                    Date date = new Date(record.getMillis());
+                    Date date = new Date();
                     String inputLine = mySerialComm.input.readLine();
-                    //pingData();
+                    System.out.println(inputLine);//pingData();
                     
                     if (inputLine.length() > 7) {
                         onScreenLog(inputLine);
@@ -1178,7 +1177,7 @@ public class FireScoutGui extends javax.swing.JFrame {
             (new Thread(new PingSensor())).start();
             threadStatus = true;
         }
-            
+        
         if(!jCheckBoxLaser.isSelected() && !jCheckBoxHeight.isSelected() && !jCheckBoxDirectional.isSelected()) {
             threadStatus = false;            
         }
