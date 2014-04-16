@@ -25,8 +25,9 @@ import static javax.swing.text.DefaultCaret.ALWAYS_UPDATE;
 public class FireScoutGui extends javax.swing.JFrame {
 
     private String MY_PORT = "COM17";
-    private int logMode = 0;
-    
+    private boolean laserToggle = false;
+    private boolean heightToggle = false;
+    private boolean directionalToggle = false;    
     
     private TwoWaySerialComm mySerialComm;
 
@@ -118,10 +119,9 @@ public class FireScoutGui extends javax.swing.JFrame {
         jTextFieldXbeeStatus = new javax.swing.JTextField();
         jPanelSensorManagement = new javax.swing.JPanel();
         jLabelSensorManager = new javax.swing.JLabel();
-        jButtonLaser = new javax.swing.JButton();
-        jButtonHeight = new javax.swing.JButton();
-        jButtonDirectional = new javax.swing.JButton();
-        jButtonResetLog = new javax.swing.JButton();
+        jCheckBoxLaser = new javax.swing.JCheckBox();
+        jCheckBoxHeight = new javax.swing.JCheckBox();
+        jCheckBoxDirectional = new javax.swing.JCheckBox();
         jPanelLog = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextAreaLog = new javax.swing.JTextArea();
@@ -580,33 +580,11 @@ public class FireScoutGui extends javax.swing.JFrame {
         jLabelSensorManager.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 20)); // NOI18N
         jLabelSensorManager.setText("Sensor Data");
 
-        jButtonLaser.setText("Laser");
-        jButtonLaser.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonLaserActionPerformed(evt);
-            }
-        });
+        jCheckBoxLaser.setText("Laser");
 
-        jButtonHeight.setText("Height");
-        jButtonHeight.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonHeightActionPerformed(evt);
-            }
-        });
+        jCheckBoxHeight.setText("Height");
 
-        jButtonDirectional.setText("Directional");
-        jButtonDirectional.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonDirectionalActionPerformed(evt);
-            }
-        });
-
-        jButtonResetLog.setText("Reset Log");
-        jButtonResetLog.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonResetLogActionPerformed(evt);
-            }
-        });
+        jCheckBoxDirectional.setText("Directional");
 
         javax.swing.GroupLayout jPanelSensorManagementLayout = new javax.swing.GroupLayout(jPanelSensorManagement);
         jPanelSensorManagement.setLayout(jPanelSensorManagementLayout);
@@ -617,26 +595,23 @@ public class FireScoutGui extends javax.swing.JFrame {
                 .addComponent(jLabelSensorManager)
                 .addGap(31, 31, 31))
             .addGroup(jPanelSensorManagementLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanelSensorManagementLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButtonLaser, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButtonHeight, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButtonDirectional, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButtonResetLog, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap())
+                .addGap(16, 16, 16)
+                .addGroup(jPanelSensorManagementLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jCheckBoxLaser, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jCheckBoxHeight, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jCheckBoxDirectional, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanelSensorManagementLayout.setVerticalGroup(
             jPanelSensorManagementLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanelSensorManagementLayout.createSequentialGroup()
                 .addComponent(jLabelSensorManager)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButtonLaser)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButtonHeight)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButtonDirectional)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButtonResetLog)
+                .addComponent(jCheckBoxLaser)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jCheckBoxHeight)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jCheckBoxDirectional)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
@@ -673,13 +648,14 @@ public class FireScoutGui extends javax.swing.JFrame {
                         .addComponent(jPanelGyro, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jPanelCmdCtrBase, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addGroup(jPanelQuadStatusLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanelSensorManagement, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanelQuadStatusLayout.createSequentialGroup()
-                        .addComponent(jPanelCompass, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jPanelBattery, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(jPanelQuadStatusLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanelQuadStatusLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addComponent(jPanelSensorManagement, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(jPanelQuadStatusLayout.createSequentialGroup()
+                            .addComponent(jPanelCompass, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(18, 18, 18)
+                            .addComponent(jPanelBattery, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(68, Short.MAX_VALUE))
         );
 
@@ -1092,7 +1068,7 @@ public class FireScoutGui extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanelBaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanelBaseLayout.createSequentialGroup()
-                        .addComponent(jTabbedPanePOI, javax.swing.GroupLayout.DEFAULT_SIZE, 879, Short.MAX_VALUE)
+                        .addComponent(jTabbedPanePOI)
                         .addContainerGap())
                     .addGroup(jPanelBaseLayout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
@@ -1111,7 +1087,7 @@ public class FireScoutGui extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelBaseLayout.createSequentialGroup()
                         .addComponent(jLabel1)
                         .addGap(26, 26, 26)))
-                .addComponent(jTabbedPanePOI, javax.swing.GroupLayout.DEFAULT_SIZE, 471, Short.MAX_VALUE)
+                .addComponent(jTabbedPanePOI)
                 .addContainerGap())
         );
 
@@ -1195,6 +1171,7 @@ public class FireScoutGui extends javax.swing.JFrame {
                     Date date = new Date();
                     String inputLine = mySerialComm.input.readLine();
                     onScreenLog(inputLine);
+                    pingData();
                     //jTextAreaLog.append(date.toString() + "\t\t" + inputLine + "\n");
 
                     if (inputLine.length() > 7) {
@@ -1221,21 +1198,35 @@ public class FireScoutGui extends javax.swing.JFrame {
         }
     }
 
-    public void onScreenLog(String str) {
-        //Log mode 0 default (shows all)
-        //Log mode 1 laser
-        //Log mode 2 height
-        //Log mode 3 directional
+    private void pingData() {
+        if(jCheckBoxLaser.isSelected() || jCheckBoxHeight.isSelected() || jCheckBoxDirectional.isSelected()) {
+            try {
+                mySerialComm.output.write("DataPing\n".getBytes());
+            } catch (Exception e) {
+                System.err.println(e.toString());
+            }
+        }
+    }
+    
+    private void onScreenLog(String str) {
         Date date = new Date();
-        if(logMode == 0)
+
+        //If none checked, print all
+        //else print only the checked data
+        if (!(jCheckBoxLaser.isSelected() && jCheckBoxHeight.isSelected() && jCheckBoxDirectional.isSelected())) {
             jTextAreaLog.append(date.toString() + "\t\t" + str + "\n");
-        else if(logMode == 1 && str.contains("Laser: "))
-            jTextAreaLog.append(date.toString() + "\t\t" + str + "\n");
-        else if(logMode == 2 && str.contains("Height: "))
-            jTextAreaLog.append(date.toString() + "\t\t" + str + "\n");
-        else if(logMode == 3 && str.contains("Directional: "))
-            jTextAreaLog.append(date.toString() + "\t\t" + str + "\n");
-        
+        } else {
+            if (jCheckBoxLaser.isSelected() && str.contains("Laser")) {
+                jTextAreaLog.append(date.toString() + "\t\t" + str + "\n");
+            }
+            if (jCheckBoxHeight.isSelected() && str.contains("Height")) {
+                jTextAreaLog.append(date.toString() + "\t\t" + str + "\n");
+            }
+            if (jCheckBoxDirectional.isSelected() && str.contains("Directional")) {
+                jTextAreaLog.append(date.toString() + "\t\t" + str + "\n");
+            }
+
+        }
 
     }
 
@@ -1360,37 +1351,6 @@ public class FireScoutGui extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jButtonSetAngleActionPerformed
 
-    private void jButtonLaserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonLaserActionPerformed
-        logMode = 1;
-        try {
-            mySerialComm.output.write(("SendLaser\n").getBytes());
-        } catch (Exception e) {
-            System.err.println(e.toString());
-        }
-    }//GEN-LAST:event_jButtonLaserActionPerformed
-
-    private void jButtonHeightActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonHeightActionPerformed
-        logMode = 2;
-        try {
-            mySerialComm.output.write(("SendHeight\n").getBytes());
-        } catch (Exception e) {
-            System.err.println(e.toString());
-        }
-    }//GEN-LAST:event_jButtonHeightActionPerformed
-
-    private void jButtonDirectionalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonDirectionalActionPerformed
-        logMode = 3;
-        try {
-            mySerialComm.output.write(("SendDirectional\n").getBytes());
-        } catch (Exception e) {
-            System.err.println(e.toString());
-        }
-    }//GEN-LAST:event_jButtonDirectionalActionPerformed
-
-    private void jButtonResetLogActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonResetLogActionPerformed
-        logMode = 0;
-    }//GEN-LAST:event_jButtonResetLogActionPerformed
-
     /**
      * @param args the command line arguments
      */
@@ -1427,11 +1387,7 @@ public class FireScoutGui extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButtonDirectional;
-    private javax.swing.JButton jButtonHeight;
     private javax.swing.JButton jButtonLand;
-    private javax.swing.JButton jButtonLaser;
-    private javax.swing.JButton jButtonResetLog;
     private javax.swing.JButton jButtonReturn;
     private javax.swing.JButton jButtonSendPPID;
     private javax.swing.JButton jButtonSendRPID;
@@ -1446,6 +1402,9 @@ public class FireScoutGui extends javax.swing.JFrame {
     private javax.swing.JButton jButtonStop;
     private javax.swing.JButton jButtonTakeoffLand;
     private javax.swing.JButton jButtonTest1;
+    private javax.swing.JCheckBox jCheckBoxDirectional;
+    private javax.swing.JCheckBox jCheckBoxHeight;
+    private javax.swing.JCheckBox jCheckBoxLaser;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;

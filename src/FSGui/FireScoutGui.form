@@ -56,7 +56,7 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" attributes="0">
                       <Group type="102" alignment="1" attributes="0">
-                          <Component id="jTabbedPanePOI" pref="879" max="32767" attributes="0"/>
+                          <Component id="jTabbedPanePOI" max="32767" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="1" attributes="0">
@@ -83,7 +83,7 @@
                           <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <Component id="jTabbedPanePOI" pref="471" max="32767" attributes="0"/>
+                  <Component id="jTabbedPanePOI" max="32767" attributes="0"/>
                   <EmptySpace min="-2" max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -152,14 +152,16 @@
                               <Component id="jPanelCmdCtrBase" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="jPanelSensorManagement" max="32767" attributes="0"/>
-                              <Group type="102" attributes="0">
-                                  <Component id="jPanelCompass" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="jPanelBattery" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jPanel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jPanelSensorManagement" alignment="0" max="32767" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Component id="jPanelCompass" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jPanelBattery" min="-2" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
-                              <Component id="jPanel4" alignment="0" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace pref="68" max="32767" attributes="0"/>
                       </Group>
@@ -818,15 +820,14 @@
                               <Component id="jLabelSensorManager" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="102" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jButtonLaser" max="32767" attributes="0"/>
-                                  <Component id="jButtonHeight" max="32767" attributes="0"/>
-                                  <Component id="jButtonDirectional" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jButtonResetLog" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jCheckBoxLaser" max="32767" attributes="0"/>
+                                  <Component id="jCheckBoxHeight" max="32767" attributes="0"/>
+                                  <Component id="jCheckBoxDirectional" pref="130" max="32767" attributes="0"/>
                               </Group>
-                              <EmptySpace max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -835,13 +836,11 @@
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="jLabelSensorManager" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButtonLaser" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButtonHeight" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButtonDirectional" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButtonResetLog" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCheckBoxLaser" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jCheckBoxHeight" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jCheckBoxDirectional" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
                       </Group>
@@ -856,37 +855,20 @@
                         <Property name="text" type="java.lang.String" value="Sensor Data"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JButton" name="jButtonLaser">
+                    <Component class="javax.swing.JCheckBox" name="jCheckBoxLaser">
                       <Properties>
                         <Property name="text" type="java.lang.String" value="Laser"/>
                       </Properties>
-                      <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonLaserActionPerformed"/>
-                      </Events>
                     </Component>
-                    <Component class="javax.swing.JButton" name="jButtonHeight">
+                    <Component class="javax.swing.JCheckBox" name="jCheckBoxHeight">
                       <Properties>
                         <Property name="text" type="java.lang.String" value="Height"/>
                       </Properties>
-                      <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonHeightActionPerformed"/>
-                      </Events>
                     </Component>
-                    <Component class="javax.swing.JButton" name="jButtonDirectional">
+                    <Component class="javax.swing.JCheckBox" name="jCheckBoxDirectional">
                       <Properties>
                         <Property name="text" type="java.lang.String" value="Directional"/>
                       </Properties>
-                      <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonDirectionalActionPerformed"/>
-                      </Events>
-                    </Component>
-                    <Component class="javax.swing.JButton" name="jButtonResetLog">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="Reset Log"/>
-                      </Properties>
-                      <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonResetLogActionPerformed"/>
-                      </Events>
                     </Component>
                   </SubComponents>
                 </Container>
