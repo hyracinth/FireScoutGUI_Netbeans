@@ -187,7 +187,7 @@ public class FireScoutGui extends javax.swing.JFrame {
         jButtonSetDistRight = new javax.swing.JButton();
         jButtonSetAngle = new javax.swing.JButton();
         jPanelHelp = new javax.swing.JPanel();
-        jLabel11 = new javax.swing.JLabel();
+        jLabelMap = new javax.swing.JLabel();
         jPanelAbout = new javax.swing.JPanel();
         jLabelProjectReqs = new javax.swing.JLabel();
         jScrollPanel = new javax.swing.JScrollPane();
@@ -665,7 +665,7 @@ public class FireScoutGui extends javax.swing.JFrame {
                 .addGroup(jPanelQuadStatusLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(65, Short.MAX_VALUE))
+                .addContainerGap(189, Short.MAX_VALUE))
         );
         jPanelQuadStatusLayout.setVerticalGroup(
             jPanelQuadStatusLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -687,7 +687,7 @@ public class FireScoutGui extends javax.swing.JFrame {
                             .addComponent(jPanelCompass, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGap(18, 18, 18)
                             .addComponent(jPanelBattery, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(68, Short.MAX_VALUE))
+                .addContainerGap(216, Short.MAX_VALUE))
         );
 
         jTabbedPanePOI.addTab("Quadcopter Status", jPanelQuadStatus);
@@ -718,14 +718,14 @@ public class FireScoutGui extends javax.swing.JFrame {
                         .addComponent(jButtonClearOnScreenLog))
                     .addGroup(jPanelLogLayout.createSequentialGroup()
                         .addGap(72, 72, 72)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 724, Short.MAX_VALUE)))
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 848, Short.MAX_VALUE)))
                 .addGap(78, 78, 78))
         );
         jPanelLogLayout.setVerticalGroup(
             jPanelLogLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanelLogLayout.createSequentialGroup()
                 .addGap(43, 43, 43)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 345, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 493, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButtonClearOnScreenLog)
                 .addGap(20, 20, 20))
@@ -1000,9 +1000,9 @@ public class FireScoutGui extends javax.swing.JFrame {
         jPanelPIDSetLayout.setHorizontalGroup(
             jPanelPIDSetLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanelPIDSetLayout.createSequentialGroup()
-                .addGap(0, 64, Short.MAX_VALUE)
+                .addGap(0, 126, Short.MAX_VALUE)
                 .addComponent(jPanelPID, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 65, Short.MAX_VALUE))
+                .addGap(0, 127, Short.MAX_VALUE))
         );
         jPanelPIDSetLayout.setVerticalGroup(
             jPanelPIDSetLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1016,24 +1016,23 @@ public class FireScoutGui extends javax.swing.JFrame {
 
         jPanelHelp.setBackground(java.awt.SystemColor.activeCaption);
 
-        jLabel11.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel11.setText("To be added..");
+        jLabelMap.setIcon(new javax.swing.ImageIcon(getClass().getResource("/complete_map.PNG"))); // NOI18N
 
         javax.swing.GroupLayout jPanelHelpLayout = new javax.swing.GroupLayout(jPanelHelp);
         jPanelHelp.setLayout(jPanelHelpLayout);
         jPanelHelpLayout.setHorizontalGroup(
             jPanelHelpLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanelHelpLayout.createSequentialGroup()
-                .addGap(195, 195, 195)
-                .addComponent(jLabel11)
-                .addContainerGap(531, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelHelpLayout.createSequentialGroup()
+                .addContainerGap(193, Short.MAX_VALUE)
+                .addComponent(jLabelMap)
+                .addGap(177, 177, 177))
         );
         jPanelHelpLayout.setVerticalGroup(
             jPanelHelpLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanelHelpLayout.createSequentialGroup()
-                .addGap(75, 75, 75)
-                .addComponent(jLabel11)
-                .addContainerGap(336, Short.MAX_VALUE))
+                .addGap(32, 32, 32)
+                .addComponent(jLabelMap)
+                .addContainerGap(32, Short.MAX_VALUE))
         );
 
         jTabbedPanePOI.addTab("Points of Interest", jPanelHelp);
@@ -1095,7 +1094,7 @@ public class FireScoutGui extends javax.swing.JFrame {
                 .addGroup(jPanelAboutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jScrollPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 182, Short.MAX_VALUE)
                     .addComponent(jScrollPane2))
-                .addContainerGap(207, Short.MAX_VALUE))
+                .addContainerGap(355, Short.MAX_VALUE))
         );
 
         jTabbedPanePOI.addTab("About", jPanelAbout);
@@ -1486,7 +1485,6 @@ public class FireScoutGui extends javax.swing.JFrame {
     private javax.swing.JCheckBox jCheckBoxLaser;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -1511,6 +1509,7 @@ public class FireScoutGui extends javax.swing.JFrame {
     private javax.swing.JLabel jLabelGyroY;
     private javax.swing.JLabel jLabelGyroZ;
     private javax.swing.JLabel jLabelLogo;
+    private javax.swing.JLabel jLabelMap;
     private javax.swing.JLabel jLabelProjectReqs;
     private javax.swing.JLabel jLabelSensorManager;
     private javax.swing.JLabel jLabelStatus;
