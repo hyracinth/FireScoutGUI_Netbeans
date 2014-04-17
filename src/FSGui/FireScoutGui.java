@@ -150,6 +150,7 @@ public class FireScoutGui extends javax.swing.JFrame {
         jPanelLog = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextAreaLog = new javax.swing.JTextArea();
+        jButtonClearOnScreenLog = new javax.swing.JButton();
         jPanelPIDSet = new javax.swing.JPanel();
         jPanelPID = new javax.swing.JPanel();
         jButtonSendTPID = new javax.swing.JButton();
@@ -699,13 +700,25 @@ public class FireScoutGui extends javax.swing.JFrame {
         jTextAreaLog.setRows(5);
         jScrollPane1.setViewportView(jTextAreaLog);
 
+        jButtonClearOnScreenLog.setText("Clear");
+        jButtonClearOnScreenLog.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonClearOnScreenLogActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanelLogLayout = new javax.swing.GroupLayout(jPanelLog);
         jPanelLog.setLayout(jPanelLogLayout);
         jPanelLogLayout.setHorizontalGroup(
             jPanelLogLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanelLogLayout.createSequentialGroup()
-                .addGap(72, 72, 72)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 724, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelLogLayout.createSequentialGroup()
+                .addGroup(jPanelLogLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(jPanelLogLayout.createSequentialGroup()
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jButtonClearOnScreenLog))
+                    .addGroup(jPanelLogLayout.createSequentialGroup()
+                        .addGap(72, 72, 72)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 724, Short.MAX_VALUE)))
                 .addGap(78, 78, 78))
         );
         jPanelLogLayout.setVerticalGroup(
@@ -713,7 +726,9 @@ public class FireScoutGui extends javax.swing.JFrame {
             .addGroup(jPanelLogLayout.createSequentialGroup()
                 .addGap(43, 43, 43)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 345, Short.MAX_VALUE)
-                .addGap(52, 52, 52))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jButtonClearOnScreenLog)
+                .addGap(20, 20, 20))
         );
 
         jTabbedPanePOI.addTab("On-Screen Log", jPanelLog);
@@ -1307,7 +1322,7 @@ public class FireScoutGui extends javax.swing.JFrame {
 
     private void jButtonStopActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonStopActionPerformed
         try {
-            mySerialComm.output.write("Stop\n".getBytes());
+            mySerialComm.output.write("STOP\n".getBytes());
         } catch (Exception e) {
             System.err.println(e.toString());
         }
@@ -1409,6 +1424,10 @@ public class FireScoutGui extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jButtonSetAngleActionPerformed
 
+    private void jButtonClearOnScreenLogActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonClearOnScreenLogActionPerformed
+        jTextAreaLog.setText("");
+    }//GEN-LAST:event_jButtonClearOnScreenLogActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1445,6 +1464,7 @@ public class FireScoutGui extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButtonClearOnScreenLog;
     private javax.swing.JButton jButtonLand;
     private javax.swing.JButton jButtonReturn;
     private javax.swing.JButton jButtonSendPPID;
