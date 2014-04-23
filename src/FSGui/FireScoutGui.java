@@ -29,9 +29,6 @@ import static javax.swing.text.DefaultCaret.ALWAYS_UPDATE;
 public class FireScoutGui extends javax.swing.JFrame {
 
     private String MY_PORT = "COM17";
-    private boolean laserToggle = false;
-    private boolean heightToggle = false;
-    private boolean directionalToggle = false;    
     private boolean xbeeXfer = false;
     private boolean threadStatus = false;
     
@@ -47,6 +44,7 @@ public class FireScoutGui extends javax.swing.JFrame {
         DefaultCaret caret = (DefaultCaret) jTextAreaLog.getCaret();
         caret.setUpdatePolicy(ALWAYS_UPDATE);
 
+        //Sets up dialog box to receive proper COM port
         String s = (String) JOptionPane.showInputDialog(null, "Enter COM port:\n", "Welcome to FireScout Control Center", JOptionPane.PLAIN_MESSAGE, null, null, "COM7");
 
         if ((s == null) && (s.length() <= 0)) {
@@ -55,6 +53,7 @@ public class FireScoutGui extends javax.swing.JFrame {
 
         MY_PORT = s;
         
+        //Initialize serial port with COM port. If fail, program will exit. 
         mySerialComm = new TwoWaySerialComm(MY_PORT);
         mySerialComm.initialize();
 
@@ -1155,6 +1154,7 @@ public class FireScoutGui extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    //This function is to listen for any serial activity. It reads the input line and parses as such. 
     private class GUISerialPortEventListener implements SerialPortEventListener {
         public synchronized void serialEvent(SerialPortEvent oEvent) {
             if (oEvent.getEventType() == SerialPortEvent.DATA_AVAILABLE) {
@@ -1162,7 +1162,7 @@ public class FireScoutGui extends javax.swing.JFrame {
                     
                     Date date = new Date();
                     String inputLine = mySerialComm.input.readLine();
-                    System.out.println(inputLine);//pingData();
+                    System.out.println(inputLine);
                     
                     if (inputLine.length() > 7) {
                         onScreenLog(inputLine);
@@ -1189,6 +1189,8 @@ public class FireScoutGui extends javax.swing.JFrame {
         }
     }
     
+    //Upon receiving information, xbeeTransferStatus is true and the proper parsing will take place to update the fields in the GUI
+    //In addition, if any of the check boxes for sensor data are true, it will create a new thread to ping for that corresponding sensor data at the rate of once per second. 
     public void parseInformation(String str) {
         jTextFieldXbeeStatus.setText("Xbee Connected.");
         xbeeXfer = true;
@@ -1263,6 +1265,8 @@ public class FireScoutGui extends javax.swing.JFrame {
         }
     }
     */
+    
+    //Displays the information on the onScreenLog
     private void onScreenLog(String str) {
         long millis = System.currentTimeMillis() % 1000;
         Date date = new Date();
@@ -1301,6 +1305,8 @@ public class FireScoutGui extends javax.swing.JFrame {
 
     }
 
+    
+    //Performs all the button actions
     private void jButtonStartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonStartActionPerformed
         //parseInformation("PilotController: Status 123,321,123,123,312");
         //onScreenLog("PilotController: Sensor 1,2,3,4,5,6,7,8,9,10");
